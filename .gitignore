@@ -2,6 +2,7 @@
 env
 *.gz
 *.zip
+*.pkl
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

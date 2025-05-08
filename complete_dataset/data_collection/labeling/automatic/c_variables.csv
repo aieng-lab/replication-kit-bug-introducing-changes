@@ -1,0 +1,248 @@
+F1 - Bug ID,C1 - Commit revision hash,C3 - # Files changed,XC1 - Files found / Files expected,XC2 - Files found,XC3 - Files not found,XC4 - Files expected,XC5 - Lines added,XC6 - Lines deleted,C4 - Commit file bugginess,C5 - Commit total line bugginess,C6 - Commit file line bugginess,C7 - Committer type,C1 - Commit hash
+Elastic Search 1134,61ad8b614a94dabf8a263cf1edd35faa50ede36d,1.0,1/1,modules/elasticsearch/src/main/java/org/elasticsearch/common/network/NetworkService.java,,modules/elasticsearch/src/main/java/org/elasticsearch/common/network/NetworkService.java,1.0,1.0,1.0,1.0,0.01092896174863388,core,
+Elastic Search 1134 - CG,10660d390d760cde78fb115107c04e1cf104a4da,1.0,0/0,,,,3.0,3.0,0.0,0.0,,core,
+Elastic Search 1154,b3337c312765e51cec7bde5883bbc0a08f56fb65,1350.0,1/3,modules/elasticsearch/src/main/java/org/elasticsearch/action/search/SearchOperationThreading.java,"modules/elasticsearch/src/main/java/org/elasticsearch/rest/action/search/RestSearchAction.java
+modules/elasticsearch/src/main/java/org/elasticsearch/rest/action/search/RestSearchScrollAction.java","modules/elasticsearch/src/main/java/org/elasticsearch/action/search/SearchOperationThreading.java
+modules/elasticsearch/src/main/java/org/elasticsearch/rest/action/search/RestSearchAction.java
+modules/elasticsearch/src/main/java/org/elasticsearch/rest/action/search/RestSearchScrollAction.java",182199.0,0.0,0.0007407407407407407,0.000406149320248739,1.0,core,
+Elastic Search 1154 - CG,7a38e384c9ff783f17e9db92a730bdf654dbda6b,4.0,0/0,,,,37.0,12.0,0.0,0.0,,core,
+Elastic Search 1162,d4547c629f53ad76ea463dc0acb1f26f0a2b784b,36.0,1/1,modules/elasticsearch/src/main/java/org/elasticsearch/cluster/metadata/MetaDataUpdateSettingsService.java,,modules/elasticsearch/src/main/java/org/elasticsearch/cluster/metadata/MetaDataUpdateSettingsService.java,769.0,193.0,0.027777777777777776,0.08731808731808732,0.9882352941176471,core,
+Elastic Search 1162 - CG,e5b041c8efd408fdc71fd2f2c84439e5a4985244,12.0,0/0,,,,96.0,469.0,0.0,0.0,,core,
+Elastic Search 12193,15a62448343fd24f8e63f43b1e4b16f50005e4a5,8676.0,1/1,core/pom.xml,,core/pom.xml,593192.0,654672.0,0.0001152604887044721,0.0009175679400960361,0.9991273996509599,core,
+Elastic Search 12193 - CG,e88535a67e9594f3135465b5021ba9b502fef950,1.0,0/0,,,,1.0,1.0,0.0,0.0,,core,
+Elastic Search 1380,adc3dc0e994ababa7917c81a61cc93f4690060d4,2.0,1/1,modules/elasticsearch/src/main/java/org/elasticsearch/search/highlight/HighlightPhase.java,,modules/elasticsearch/src/main/java/org/elasticsearch/search/highlight/HighlightPhase.java,73.0,7.0,0.5,0.2875,0.10043668122270742,core,
+Elastic Search 1380 - CG,16a046f686c26309ee0041df8987a4d2ffedd956,2.0,0/0,,,,20.0,20.0,0.0,0.0,,core,
+Elastic Search 14782,904cbf53409ae62bb67cd07c31ef88121cff9361,148.0,1/1,core/src/main/java/org/elasticsearch/index/mapper/MappedFieldType.java,,core/src/main/java/org/elasticsearch/index/mapper/MappedFieldType.java,838.0,1158.0,0.006756756756756757,0.006012024048096192,0.023952095808383235,core,
+Elastic Search 14782 - CG,a75adaaaaaa632c036464da8fa24770796f77852,1.0,0/0,,,,1.0,1.0,0.0,0.0,,core,
+Elastic Search 15858,0cde90fcb10c93c56d5f7d6c9228002ffdff1fec,7.0,1/1,modules/elasticsearch/src/main/java/org/elasticsearch/common/lucene/search/Queries.java,,core/src/main/java/org/elasticsearch/common/lucene/search/Queries.java,108.0,0.0,0.14285714285714285,0.5648148148148148,0.324468085106383,core,
+Elastic Search 15858 - CG,4088236cf75b793c7a2a80f5f7be5b326b607378,1.0,0/0,,,,7.0,1.0,0.0,0.0,,core,
+Elastic Search 16246,57d697125225d694376287eda7e644108ccbebda,19.0,1/1,plugins/ingest/src/main/java/org/elasticsearch/ingest/IngestDocument.java,,core/src/main/java/org/elasticsearch/ingest/core/IngestDocument.java,411.0,259.0,0.05263157894736842,0.29402985074626864,0.4078674948240166,core,
+Elastic Search 16246 - CG,7caee2fa4d918d4c6978bcf986a158d03bf7db2a,6.0,0/0,,,,95.0,40.0,0.0,0.0,,core,
+Elastic Search 1626,4180a7f73ab4d32f001a1d0bdc17aebd3073be76,5.0,3/3,"modules/elasticsearch/src/main/java/org/elasticsearch/cluster/routing/RoutingNode.java
+modules/elasticsearch/src/main/java/org/elasticsearch/cluster/routing/RoutingNodes.java
+modules/elasticsearch/src/main/java/org/elasticsearch/cluster/routing/allocation/AllocationService.java",,"src/main/java/org/elasticsearch/cluster/routing/RoutingNode.java
+src/main/java/org/elasticsearch/cluster/routing/RoutingNodes.java
+src/main/java/org/elasticsearch/cluster/routing/allocation/AllocationService.java",30.0,25.0,0.6,0.6909090909090909,0.048223350253807105,core,
+Elastic Search 1626 - CG,1f30681a84fcafe9cf6e6b8a2801ea1791b9edc0,3.0,0/0,,,,100.0,2.0,0.0,0.0,,peripheral,
+Elastic Search 16790,1e209e3802a693414a18bfddbb917044c50e5a6a,2.0,2/2,"distribution/src/main/resources/bin/plugin
+distribution/src/main/resources/bin/plugin.bat",,"distribution/src/main/resources/bin/elasticsearch-plugin
+distribution/src/main/resources/bin/elasticsearch-plugin.bat",2.0,2.0,1.0,1.0,0.028985507246376812,core,
+Elastic Search 16790 - CG,093791e82dfe7c3e16ddb1f199fede2cf86b6797,3.0,0/0,,,,1.0,36.0,0.0,0.0,,core,
+Elastic Search 1725,bd6b89f7cab39acf5cd2b3d5b33adbcddf69c0d1,35.0,1/2,modules/elasticsearch/src/main/java/org/apache/lucene/search/DeletionAwareConstantScoreQuery.java,"src/main/java/org/apache/lucene/search/DeletionAwareConstantScoreQuery.java
+src/main/java/org/elasticsearch/common/lucene/search/NotDeletedFilter.java","src/main/java/org/apache/lucene/search/DeletionAwareConstantScoreQuery.java
+src/main/java/org/elasticsearch/common/lucene/search/NotDeletedFilter.java",398.0,94.0,0.02857142857142857,0.46747967479674796,0.9956709956709957,core,
+Elastic Search 1725 - CG,3d310406b71973e82f94f60b8dab0c90729a579a,1.0,0/0,,,,0.0,0.0,0.0,,,core,
+Elastic Search 1814,14237317fce4e365aa2e0a88ef59bafd43e73e4e,11.0,1/1,modules/elasticsearch/src/main/java/org/elasticsearch/search/internal/InternalSearchHit.java,,src/main/java/org/elasticsearch/search/internal/InternalSearchHit.java,263.0,13.0,0.09090909090909091,0.057971014492753624,0.028985507246376812,core,
+Elastic Search 1814 - CG,b31b0e979c616251ed75b18a87193bd76b75eff3,1.0,0/0,,,,2.0,2.0,0.0,0.0,,core,
+Elastic Search 1948,3b967040da249ce58e848e7c00dad11b42eb3c9f,3.0,1/1,modules/elasticsearch/src/main/java/org/elasticsearch/index/percolator/PercolatorExecutor.java,,src/main/java/org/elasticsearch/index/percolator/PercolatorExecutor.java,18.0,45.0,0.3333333333333333,0.8571428571428571,0.12735849056603774,core,
+Elastic Search 1948 - CG,8587f1611912c6633b72909939e91d226575dd90,1.0,0/0,,,,32.0,2.0,0.0,0.0,,core,
+Elastic Search 1960,ebd6316db9be1ef69ddc0a929bb225ec6d9b7ed6,45.0,1/5,modules/elasticsearch/src/main/java/org/elasticsearch/cluster/metadata/IndexTemplateMetaData.java,"src/main/java/org/elasticsearch/cluster/metadata/IndexMetaData.java
+src/main/java/org/elasticsearch/cluster/metadata/IndexTemplateMetaData.java
+src/main/java/org/elasticsearch/cluster/metadata/MetaData.java
+src/main/java/org/elasticsearch/common/settings/loader/SettingsLoader.java
+src/main/java/org/elasticsearch/common/settings/loader/YamlSettingsLoader.java","src/main/java/org/elasticsearch/cluster/metadata/IndexMetaData.java
+src/main/java/org/elasticsearch/cluster/metadata/IndexTemplateMetaData.java
+src/main/java/org/elasticsearch/cluster/metadata/MetaData.java
+src/main/java/org/elasticsearch/common/settings/loader/SettingsLoader.java
+src/main/java/org/elasticsearch/common/settings/loader/YamlSettingsLoader.java",1941.0,292.0,0.022222222222222223,0.11867442901925661,0.9962406015037594,core,
+Elastic Search 1960 - CG,103221e58a85dc5d133cc70af898102735c4375f,1.0,0/0,,,,1.0,1.0,0.0,0.0,,core,
+Elastic Search 200,cb0d7d4735665fa8ca1b59555a06354859c0045a,44.0,3/3,"modules/elasticsearch/src/main/java/org/elasticsearch/discovery/zen/ZenDiscovery.java
+modules/elasticsearch/src/main/java/org/elasticsearch/discovery/zen/fd/MasterFaultDetection.java
+modules/elasticsearch/src/main/java/org/elasticsearch/discovery/zen/fd/NodesFaultDetection.java",,"modules/elasticsearch/src/main/java/org/elasticsearch/discovery/zen/ZenDiscovery.java
+modules/elasticsearch/src/main/java/org/elasticsearch/discovery/zen/fd/MasterFaultDetection.java
+modules/elasticsearch/src/main/java/org/elasticsearch/discovery/zen/fd/NodesFaultDetection.java",2667.0,332.0,0.06818181818181818,0.32810936978993,0.9969604863221885,core,
+Elastic Search 200 - CG,2ea7423f3ac68578a81d92f50b6484cf1db2203d,1.0,0/0,,,,2.0,1.0,0.0,0.0,,core,
+Elastic Search 2566,2442e1fb162a224ab46c4adb40a74b278e3c51e1,17.0,1/1,modules/elasticsearch/src/main/java/org/apache/lucene/queryParser/MapperQueryParser.java,,src/main/java/org/apache/lucene/queryparser/classic/MapperQueryParser.java,451.0,240.0,0.058823529411764705,0.04052098408104197,0.14358974358974358,core,
+Elastic Search 2566 - CG,aa68667d636d61b0cc67810e1e2489d1246e9af6,10.0,0/0,,,,304.0,4.0,0.0,0.0,,core,
+Elastic Search 2608,167d35807c5ce4b8e10228180dcf58b14f3ce826,8.0,1/1,modules/elasticsearch/src/main/java/org/elasticsearch/index/query/xcontent/TermsQueryParser.java,,src/main/java/org/elasticsearch/index/query/TermsQueryParser.java,429.0,43.0,0.125,0.20127118644067796,0.7661290322580645,core,
+Elastic Search 2608 - CG,8285ffe22175bf4592e79bb881a6451741ccdac8,7.0,0/0,,,,12.0,10.0,0.0,0.0,,core,
+Elastic Search 2991,7397007e05ed361805ecc3c2752e1472062c918f,52.0,1/1,src/main/java/org/elasticsearch/index/fielddata/fieldcomparator/BytesRefOrdValComparator.java,,src/main/java/org/elasticsearch/index/fielddata/fieldcomparator/BytesRefOrdValComparator.java,10294.0,0.0,0.019230769230769232,0.04614338449582281,0.9978991596638656,core,
+Elastic Search 2991 - CG,bc20f068c9c62b69260f3b24adaaf9fb3ff3d371,2.0,0/0,,,,45.0,10.0,0.0,0.0,,core,
+Elastic Search 3242,05e0b4d4e0226592e741166b0d3fa271725df2f3,10.0,1/1,src/main/java/org/elasticsearch/index/search/shape/ShapeFetchService.java,,src/main/java/org/elasticsearch/index/search/shape/ShapeFetchService.java,413.0,13.0,0.1,0.20187793427230047,0.9885057471264368,core,
+Elastic Search 3242 - CG,4f5e62e9882b36271280ad4e47e61aba2d7669f1,4.0,0/0,,,,203.0,10.0,0.0,0.0,,peripheral,
+Elastic Search 3267,9bf686ef624246c3b9e1e66242ad2f8d189bb94b,24.0,1/1,modules/elasticsearch/src/main/java/org/elasticsearch/action/get/TransportMultiGetAction.java,,src/main/java/org/elasticsearch/action/get/TransportMultiGetAction.java,1549.0,49.0,0.041666666666666664,0.08886107634543179,1.0,core,
+Elastic Search 3267 - CG,567cf6b5c3bbc4486b0472c8abe588ab6215637c,1.0,0/0,,,,5.0,0.0,0.0,0.0,,core,
+Elastic Search 3560,4930b93c26506e8f063a3b817f0434bd17fca14c,45.0,1/1,src/main/java/org/elasticsearch/action/admin/cluster/settings/TransportClusterUpdateSettingsAction.java,,src/main/java/org/elasticsearch/action/admin/cluster/settings/TransportClusterUpdateSettingsAction.java,757.0,936.0,0.022222222222222223,0.08564678086237448,0.7631578947368421,core,
+Elastic Search 3560 - CG,a235a5594338789a448742fce19549206dd5b30c,11.0,0/0,,,,312.0,158.0,0.0,0.0,,core,
+Elastic Search 4581,f444ed4dff95fe49d2a11f8eac287e48c563ce9c,7.0,1/1,src/main/java/org/elasticsearch/index/mapper/internal/AllFieldMapper.java,,src/main/java/org/elasticsearch/index/mapper/internal/AllFieldMapper.java,73.0,60.0,0.14285714285714285,0.518796992481203,0.23232323232323232,core,
+Elastic Search 4581 - CG,22722840d4331a83fcfdd8edea22d372feba16ab,1.0,0/0,,,,3.0,3.0,0.0,0.0,,peripheral,
+Elastic Search 4814,4271d573d60f39564c458e2d3fb7c14afb82d4d8,69.0,1/1,src/main/java/org/elasticsearch/search/aggregations/bucket/BytesRefHash.java,,src/main/java/org/elasticsearch/search/aggregations/bucket/BytesRefHash.java,1915.0,527.0,0.014492753623188406,0.06961506961506962,0.9941520467836257,core,
+Elastic Search 4814 - CG,3f1472505723866794d875c00bde575d988e120d,2.0,0/0,,,,6.0,4.0,0.0,0.0,,core,
+Elastic Search 5021,c7f6c5266d15fefa1a5ce9ae7ffc519c5ff8abbe,246.0,2/3,"src/main/java/org/elasticsearch/search/aggregations/bucket/terms/StringTerms.java
+src/main/java/org/elasticsearch/search/aggregations/bucket/terms/StringTermsAggregator.java",src/main/java/org/elasticsearch/search/aggregations/bucket/BytesRefHash.java,"src/main/java/org/elasticsearch/search/aggregations/bucket/BytesRefHash.java
+src/main/java/org/elasticsearch/search/aggregations/bucket/terms/StringTerms.java
+src/main/java/org/elasticsearch/search/aggregations/bucket/terms/StringTermsAggregator.java",26824.0,1518.0,0.008130081300813009,0.00935008115164773,0.9925093632958801,peripheral,
+Elastic Search 5021 - CG,07443089ce761cdfcf9206ad179381db7249d01a,1.0,0/0,,,,24.0,12.0,0.0,0.0,,core,
+Elastic Search 5048,c7f6c5266d15fefa1a5ce9ae7ffc519c5ff8abbe,246.0,1/1,src/main/java/org/elasticsearch/search/aggregations/AggregatorFactories.java,,src/main/java/org/elasticsearch/search/aggregations/AggregatorFactories.java,26824.0,1518.0,0.0040650406504065045,0.006209865217698116,0.9943502824858758,peripheral,
+Elastic Search 5048 - CG,e7e1667a26de5472e3419c586682b92c37c6e7d3,4.0,0/0,,,,10.0,1.0,0.0,0.0,,core,
+Elastic Search 5165,3ca0239668187c535f36a5da6473d73315f42679,17.0,2/2,"src/main/java/org/elasticsearch/search/SearchService.java
+src/main/java/org/elasticsearch/search/internal/DefaultSearchContext.java",,"src/main/java/org/elasticsearch/search/SearchService.java
+src/main/java/org/elasticsearch/search/internal/DefaultSearchContext.java",1310.0,673.0,0.11764705882352941,0.019162884518406455,0.028189910979228485,core,
+Elastic Search 5165 - CG,459d59a04ad4eb1671bac50a6faf3a7ad372d0e4,2.0,0/0,,,,25.0,5.0,0.0,0.0,,core,
+Elastic Search 5948,b35ca1aa751efc551f2e33b9d21be27b5e8dd324,1.0,1/1,src/main/java/org/elasticsearch/rest/action/cat/RestAllocationAction.java,,src/main/java/org/elasticsearch/rest/action/cat/RestAllocationAction.java,10.0,17.0,1.0,1.0,0.14285714285714285,core,
+Elastic Search 5948 - CG,8561f897a984807958a543e378ab01349935a739,2.0,0/0,,,,5.0,4.0,0.0,0.0,,core,
+Elastic Search 7623,575250e223c31218b13e927e914925299594973d,6.0,4/5,"modules/elasticsearch/src/main/java/org/elasticsearch/action/search/type/TransportSearchDfsQueryAndFetchAction.java
+modules/elasticsearch/src/main/java/org/elasticsearch/action/search/type/TransportSearchDfsQueryThenFetchAction.java
+modules/elasticsearch/src/main/java/org/elasticsearch/action/search/type/TransportSearchQueryAndFetchAction.java
+modules/elasticsearch/src/main/java/org/elasticsearch/action/search/type/TransportSearchQueryThenFetchAction.java","src/main/java/org/elasticsearch/action/search/type/TransportSearchDfsQueryAndFetchAction.java
+src/main/java/org/elasticsearch/action/search/type/TransportSearchDfsQueryThenFetchAction.java
+src/main/java/org/elasticsearch/action/search/type/TransportSearchQueryAndFetchAction.java
+src/main/java/org/elasticsearch/action/search/type/TransportSearchQueryThenFetchAction.java
+src/main/java/org/elasticsearch/threadpool/ThreadPool.java","src/main/java/org/elasticsearch/action/search/type/TransportSearchDfsQueryAndFetchAction.java
+src/main/java/org/elasticsearch/action/search/type/TransportSearchDfsQueryThenFetchAction.java
+src/main/java/org/elasticsearch/action/search/type/TransportSearchQueryAndFetchAction.java
+src/main/java/org/elasticsearch/action/search/type/TransportSearchQueryThenFetchAction.java
+src/main/java/org/elasticsearch/threadpool/ThreadPool.java",100.0,18.0,0.6666666666666666,0.5338983050847458,0.08525033829499323,core,
+Elastic Search 7623 - CG,ef85412f98e97ff5471013eab59fd8cb3046c17a,1.0,0/0,,,,3.0,3.0,0.0,0.0,,core,
+Elastic Search 764,4c34840627768d1564dd2a73308f8333f7cc6a03,2.0,1/1,modules/elasticsearch/src/main/java/org/elasticsearch/index/mapper/xcontent/XContentDynamicTemplate.java,,modules/elasticsearch/src/main/java/org/elasticsearch/index/mapper/xcontent/DynamicTemplate.java,66.0,2.0,0.5,0.5588235294117647,0.20430107526881722,core,
+Elastic Search 764 - CG,7180636df6dfe6b18bf738ee2285549ea95a8cb9,6.0,0/0,,,,24.0,1.0,0.0,0.0,,core,
+Elastic Search 7686,c3f3c268c8854175a7f0d4cca3ad5fb6901f6e35,9.0,1/1,modules/elasticsearch/src/main/java/org/elasticsearch/index/query/xcontent/IdsQueryParser.java,,src/main/java/org/elasticsearch/index/query/IdsQueryParser.java,500.0,0.0,0.1111111111111111,0.192,0.9896907216494846,core,
+Elastic Search 7686 - CG,90a339ad5e4a61e750d0342be6326de46f45bedc,9.0,0/0,,,,231.0,363.0,0.0,0.0,,core,
+Elastic Search 8125,61c21f9a0e148db3e450c87c4690bef173ccc821,6.0,1/1,src/main/java/org/elasticsearch/action/bulk/TransportBulkAction.java,,src/main/java/org/elasticsearch/action/bulk/TransportBulkAction.java,157.0,41.0,0.16666666666666666,0.5,0.25255102040816324,core,
+Elastic Search 8125 - CG,c55341bf515fec6d4135cee8a6e9a7a9764da17f,2.0,0/0,,,,14.0,3.0,0.0,0.0,,core,
+Elastic Search 8438,3c9c9f33e2869d801026a966e22cb39ff380db8d,11.0,1/2,src/main/java/org/elasticsearch/search/aggregations/bucket/filters/FiltersParser.java,src/main/java/org/elasticsearch/search/aggregations/bucket/filter/FilterParser.java,"src/main/java/org/elasticsearch/search/aggregations/bucket/filter/FilterParser.java
+src/main/java/org/elasticsearch/search/aggregations/bucket/filters/FiltersParser.java",929.0,0.0,0.09090909090909091,0.09580193756727665,0.9888888888888889,core,
+Elastic Search 8438 - CG,976448e3395609276446e2b8dbeddb046823aa2e,2.0,0/0,,,,57.0,1.0,0.0,0.0,,core,
+Elastic Search 8507,3c142e550d946347d87c6b48d5bc7ef6f99fff0a,202.0,4/4,"src/main/java/org/elasticsearch/index/fielddata/SortingNumericDocValues.java
+src/main/java/org/elasticsearch/search/aggregations/bucket/geogrid/GeoHashGridParser.java
+src/main/java/org/elasticsearch/search/aggregations/support/ValuesSource.java
+src/main/java/org/elasticsearch/search/aggregations/support/values/ScriptLongValues.java",,"src/main/java/org/elasticsearch/index/fielddata/SortingNumericDocValues.java
+src/main/java/org/elasticsearch/search/aggregations/bucket/geogrid/GeoHashGridParser.java
+src/main/java/org/elasticsearch/search/aggregations/support/ValuesSource.java
+src/main/java/org/elasticsearch/search/aggregations/support/values/ScriptLongValues.java",4441.0,6543.0,0.019801980198019802,0.05744719592134013,0.609073359073359,core,
+Elastic Search 8507 - CG,91c4824a0f768f2d3e3651958656384d0735a85e,1.0,0/0,,,,1.0,1.0,0.0,0.0,,core,
+Elastic Search 8526,5aa0a8438f69b55de622d2277628914d16ced372,8.0,1/1,src/main/java/org/elasticsearch/common/geo/GeoHashUtils.java,,src/main/java/org/elasticsearch/common/geo/GeoHashUtils.java,596.0,59.0,0.125,0.3053435114503817,0.6578947368421053,core,
+Elastic Search 8526 - CG,fc51ebfce8a87252d868d1f160ae740972b8e48a,1.0,0/0,,,,81.0,15.0,0.0,0.0,,peripheral,
+Elastic Search 8580,3c142e550d946347d87c6b48d5bc7ef6f99fff0a,202.0,1/1,src/main/java/org/elasticsearch/index/fielddata/AbstractRandomAccessOrds.java,,src/main/java/org/elasticsearch/index/fielddata/AbstractRandomAccessOrds.java,4441.0,6543.0,0.0049504950495049506,0.0024581209031318283,0.6,core,
+Elastic Search 8580 - CG,8865e60e936b57feb1a31d23b29ba0b212492766,1.0,0/0,,,,2.0,1.0,0.0,0.0,,core,
+Elastic Search 864,8f324678e814432d32659bc7e48694759149ae74,53.0,1/2,modules/elasticsearch/src/main/java/org/elasticsearch/rest/action/admin/indices/alias/RestIndicesAliasesAction.java,modules/elasticsearch/src/main/java/org/elasticsearch/ElasticSearchIllegalArgumentException.java,"modules/elasticsearch/src/main/java/org/elasticsearch/ElasticSearchIllegalArgumentException.java
+modules/elasticsearch/src/main/java/org/elasticsearch/rest/action/admin/indices/alias/RestIndicesAliasesAction.java",897.0,249.0,0.018867924528301886,0.10034904013961606,0.8333333333333334,core,
+Elastic Search 864 - CG,03ee0a942df39c01e5e4f4ecb392a746e3d979af,6.0,0/0,,,,49.0,42.0,0.0,0.0,,core,
+Elastic Search 8893,85eb0ea0e718fd9757d1bafa18f8767b1924f00c,6.0,1/2,src/main/java/org/elasticsearch/index/mapper/internal/TimestampFieldMapper.java,src/main/java/org/elasticsearch/index/mapper/core/AbstractFieldMapper.java,"src/main/java/org/elasticsearch/index/mapper/core/AbstractFieldMapper.java
+src/main/java/org/elasticsearch/index/mapper/internal/TimestampFieldMapper.java",387.0,31.0,0.16666666666666666,0.06937799043062201,0.10034602076124567,core,
+Elastic Search 8893 - CG,4f131dfffbdadf5c5f9c9b7a03f9660233e04f72,2.0,0/0,,,,28.0,65.0,0.0,0.0,,core,
+Elastic Search 9317,5714b0a7adc96ac7bed92b8b5938d0885c32062a,1.0,1/1,src/main/java/org/elasticsearch/search/aggregations/bucket/nested/NestedAggregator.java,,src/main/java/org/elasticsearch/search/aggregations/bucket/nested/NestedAggregator.java,36.0,21.0,1.0,1.0,0.31843575418994413,core,
+Elastic Search 9317 - CG,bb49554c33b310e0e615c12befe8846a7d27c951,2.0,0/0,,,,8.0,4.0,0.0,0.0,,core,
+NOVA 1294939,542958fac7445a14deaae146b0d4047aa90a2fab,2.0,1/1,nova/network/manager.py,,nova/network/manager.py,28.0,25.0,0.5,0.8490566037735849,0.023231801755291687,core,
+NOVA 1294939 - CG,8218a86dedd50301252598667171d17d874bb36d,3.0,0/0,,,,31.0,12.0,0.0,0.0,,core,
+NOVA 1300788,e517e5668ab20214432e06ef87f7b16776edaf7c,4.0,1/1,nova/virt/vmwareapi/vmops.py,,nova/virt/vmwareapi/vmops.py,86.0,94.0,0.25,0.5444444444444444,0.07608695652173914,core,
+NOVA 1300788 - CG,ba1ed8958b6bde0d8b9f5862a83ac7e1a33e8313,1.0,0/0,,,,108.0,61.0,0.0,0.0,,peripheral,
+NOVA 1307791,3dff43356619b4a935a5f395b066e96e8856bb4f,3.0,1/1,nova/compute/api.py,,nova/compute/api.py,134.0,45.0,0.3333333333333333,0.3016759776536313,0.019650655021834062,core,
+NOVA 1307791 - CG,27a5753dd3766b5535e0248d48c9bb555379dd12,2.0,0/0,,,,4.0,2.0,0.0,0.0,,peripheral,
+NOVA 1314677,88ab9369e3ddfd8b8684bf280330ff8d37a74b2b,14.0,1/1,nova/cells/state.py,,nova/cells/state.py,401.0,83.0,0.07142857142857142,0.35537190082644626,0.35537190082644626,peripheral,
+NOVA 1314677 - CG,ae1040232dc681d718d940af11108322044a23be,1.0,0/0,,,,15.0,13.0,0.0,0.0,,core,
+NOVA 1336127,2c62e344e26ccba08d5c613a7c4a40a0f076901e,2.0,1/1,nova/compute/manager.py,,nova/compute/manager.py,187.0,37.0,0.5,0.38839285714285715,0.01687681862269641,core,
+NOVA 1336127 - CG,90a37c069ede9d9b23ff6faef4ea6e48bbd7ebce,6.0,0/0,,,,177.0,177.0,0.0,0.0,,core,
+NOVA 1343080,e7aa4022374fb35d2131a7c633212c5d6302db3d,13.0,1/22,nova/api/openstack/images.py,"doc/api_samples/OS-DCF/image-get-resp.json
+doc/api_samples/OS-DCF/image-get-resp.xml
+doc/api_samples/OS-DCF/image-list-resp.json
+doc/api_samples/OS-DCF/image-list-resp.xml
+doc/api_samples/OS-EXT-IMG-SIZE/image-get-resp.json
+doc/api_samples/OS-EXT-IMG-SIZE/image-get-resp.xml
+doc/api_samples/OS-EXT-IMG-SIZE/images-details-get-resp.json
+doc/api_samples/OS-EXT-IMG-SIZE/images-details-get-resp.xml
+doc/api_samples/image-get-resp.json
+doc/api_samples/image-get-resp.xml
+doc/api_samples/images-details-get-resp.json
+doc/api_samples/images-details-get-resp.xml
+doc/api_samples/images-list-get-resp.json
+doc/api_samples/images-list-get-resp.xml
+doc/v3/api_samples/image-size/image-get-resp.json
+doc/v3/api_samples/image-size/images-details-get-resp.json
+doc/v3/api_samples/images/image-get-resp.json
+doc/v3/api_samples/images/images-details-get-resp.json
+doc/v3/api_samples/images/images-list-get-resp.json
+doc/v3/api_samples/os-disk-config/image-get-resp.json
+doc/v3/api_samples/os-disk-config/image-list-resp.json
+nova/api/openstack/compute/views/images.py","doc/api_samples/OS-DCF/image-get-resp.json
+doc/api_samples/OS-DCF/image-get-resp.xml
+doc/api_samples/OS-DCF/image-list-resp.json
+doc/api_samples/OS-DCF/image-list-resp.xml
+doc/api_samples/OS-EXT-IMG-SIZE/image-get-resp.json
+doc/api_samples/OS-EXT-IMG-SIZE/image-get-resp.xml
+doc/api_samples/OS-EXT-IMG-SIZE/images-details-get-resp.json
+doc/api_samples/OS-EXT-IMG-SIZE/images-details-get-resp.xml
+doc/api_samples/image-get-resp.json
+doc/api_samples/image-get-resp.xml
+doc/api_samples/images-details-get-resp.json
+doc/api_samples/images-details-get-resp.xml
+doc/api_samples/images-list-get-resp.json
+doc/api_samples/images-list-get-resp.xml
+doc/v3/api_samples/image-size/image-get-resp.json
+doc/v3/api_samples/image-size/images-details-get-resp.json
+doc/v3/api_samples/images/image-get-resp.json
+doc/v3/api_samples/images/images-details-get-resp.json
+doc/v3/api_samples/images/images-list-get-resp.json
+doc/v3/api_samples/os-disk-config/image-get-resp.json
+doc/v3/api_samples/os-disk-config/image-list-resp.json
+nova/api/openstack/compute/views/images.py",516.0,606.0,0.07692307692307693,0.01871657754010695,0.0995260663507109,core,
+NOVA 1343080 - CG,475f3624245500c5382faf5b2708a59fcec2c9ad,4.0,0/0,,,,83.0,48.0,0.0,0.0,,core,
+NOVA 1367363,0fcbb7b286888d642d329db1299eb9f3708d1f50,2.0,1/1,nova/virt/libvirt/driver.py,,nova/virt/libvirt/driver.py,29.0,7.0,0.5,0.5,0.0035664751337428175,peripheral,
+NOVA 1367363 - CG,6ed6be8435284daf39ef1b8323e213c7885852c6,1.0,0/0,,,,11.0,14.0,0.0,0.0,,core,
+NOVA 1370177,33e3d4c6b9e0b11500fe47d861110be1c1981572,7.0,1/1,nova/block_device.py,,nova/block_device.py,249.0,63.0,0.14285714285714285,0.09615384615384616,0.05628517823639775,core,
+NOVA 1370177 - CG,6982d8534d78d9732fc8d6e05c8f3bb432d62264,4.0,0/0,,,,75.0,17.0,0.0,0.0,,peripheral,
+NOVA 1370590,7326bac8f9564bd96bbf69afe43cf3a876468c9c,2.0,1/1,nova/virt/libvirt/driver.py,,nova/virt/libvirt/driver.py,208.0,70.0,0.5,0.28776978417266186,0.013014478607450789,core,
+NOVA 1370590 - CG,e65a43837e9ccad8ca34da4d29824df591c685fe,1.0,0/0,,,,2.0,2.0,0.0,0.0,,core,
+NOVA 1371677,5fa74bc0b2ab6fe5149a9b684b4beadb67877622,9.0,1/1,nova/virt/libvirt/driver.py,,nova/virt/libvirt/driver.py,731.0,44.0,0.1111111111111111,0.09032258064516129,0.011585567692816948,core,
+NOVA 1371677 - CG,9340f6db7961824aabdf73cecf5e19892ce01c03,1.0,0/0,,,,13.0,9.0,0.0,0.0,,core,
+NOVA 1375379,e71e8c2a8902acb59dc95e4ea3521e09ae50aa7d,3.0,1/1,nova/console/websocketproxy.py,,nova/console/websocketproxy.py,18.0,153.0,0.3333333333333333,0.4327485380116959,0.8222222222222222,core,
+NOVA 1375379 - CG,f2baacd4e634b815fe011ced0d6e46f6c06b7fdd,1.0,0/0,,,,12.0,3.0,0.0,0.0,,core,
+NOVA 1381468,30871e8702737edbbfbcbbb5f21858873b37685c,2.0,1/1,nova/scheduler/filters/trusted_filter.py,,nova/scheduler/filters/trusted_filter.py,28.0,57.0,0.5,0.9411764705882353,0.3007518796992481,peripheral,
+NOVA 1381468 - CG,583d12f4fae620719b893cb7f9fbfc461ec8a124,2.0,0/0,,,,0.0,12.0,0.0,0.0,,core,
+NOVA 1392798,a9d0313cc7d36a9e5e60aa7710b9ce8ec2f37f19,8.0,1/1,nova/compute/manager.py,,nova/compute/manager.py,215.0,17.0,0.125,0.14224137931034483,0.008631964425843578,core,
+NOVA 1392798 - CG,1b32ed31425a0332ab16f5b5f6c08a20eafe7963,1.0,0/0,,,,188.0,104.0,0.0,0.0,,core,
+NOVA 1402535,933365a583daa5b9eabcf2397c3e7b803e7af74c,3.0,1/1,nova/virt/libvirt/volume.py,,nova/virt/libvirt/volume.py,247.0,40.0,0.3333333333333333,0.8292682926829268,0.3895253682487725,peripheral,
+NOVA 1402535 - CG,2d0578c539d000981e50ba0c143385974d10e2e2,2.0,0/0,,,,59.0,3.0,0.0,0.0,,core,
+NOVA 1402728,2bcda65d512f38902514e986883d9b36f4d85c33,6.0,2/2,"nova/virt/vmwareapi/vm_util.py
+nova/virt/vmwareapi/vmops.py",,"nova/virt/vmwareapi/vm_util.py
+nova/virt/vmwareapi/vmops.py",150.0,4.0,0.3333333333333333,0.2077922077922078,0.010078740157480314,core,
+NOVA 1402728 - CG,990561227d1cdadc1ae91fdcc74286a47f0ddf2c,2.0,0/0,,,,136.0,6.0,0.0,0.0,,core,
+NOVA 1403544,6956057ac490c788cb94fbfd0af7fe6e91a7ca96,7.0,1/1,nova/compute/api.py,,nova/compute/api.py,29.0,461.0,0.14285714285714285,0.4673469387755102,1.1009615384615385,core,
+NOVA 1403544 - CG,27d89c2d425aefcd32549b08e3cff8b132d3e75b,1.0,0/0,,,,1.0,2.0,0.0,0.0,,core,
+NOVA 1419002,2ef03c6a0a8c5705249c3b5be755e0a13ca39332,2.0,0/2,,"nova/virt/libvirt/driver.py
+nova/compute/utils.py","nova/virt/libvirt/driver.py
+nova/compute/utils.py",18.0,0.0,0.0,0.0,,peripheral,
+NOVA 1419002 - CG,1e4024b72218a07d1e535878337547cf16406dd8,1.0,0/0,,,,4.0,1.0,0.0,0.0,,peripheral,
+NOVA 1424647,d2cbb9adeaddefc00db430644e0d51b11ffb7600,4.0,4/4,"nova/cmd/baseproxy.py
+nova/cmd/novncproxy.py
+nova/cmd/serialproxy.py
+nova/cmd/spicehtml5proxy.py",,"nova/cmd/baseproxy.py
+nova/cmd/novncproxy.py
+nova/cmd/serialproxy.py
+nova/cmd/spicehtml5proxy.py",34.0,161.0,1.0,1.0,0.9154929577464789,core,
+NOVA 1424647 - CG,5ee83244f40f3d3c29bf47c5d86952bf53de1684,2.0,0/0,,,,11.0,11.0,0.0,0.0,,core,
+NOVA 1434855,abc656d3d549c555cf7c94d0ae0e5d50768bd366,11.0,2/2,"doc/v3/api_samples/os-extended-volumes/v2.3/server-get-resp.json
+doc/v3/api_samples/os-extended-volumes/v2.3/servers-detail-resp.json",,"doc/v3/api_samples/os-extended-volumes/v2.3/server-get-resp.json
+doc/v3/api_samples/os-extended-volumes/v2.3/servers-detail-resp.json",412.0,21.0,0.18181818181818182,0.30484988452655887,0.9850746268656716,peripheral,
+NOVA 1434855 - CG,73515209cf09821a2fc922e1ae2c97650802fab4,2.0,0/0,,,,34.0,2.0,0.0,0.0,,core,
+NOVA 1437855,1b2c121f133b15d0fe3f6ebdb131ac9998bc4b83,31.0,1/2,nova/api/openstack/compute/contrib/floating_ips.py,nova/api/openstack/compute/plugins/v3/floating_ips.py,"nova/api/openstack/compute/contrib/floating_ips.py
+nova/api/openstack/compute/plugins/v3/floating_ips.py",311.0,14.0,0.03225806451612903,0.09230769230769231,0.08982035928143713,core,
+NOVA 1437855 - CG,7cef50ad800274cad3d07240cc468d038ce4031b,1.0,0/0,,,,2.0,0.0,0.0,0.0,,core,
+NOVA 1438331,13e2bd02a5b50973f95eb3d8fc0af4e0702e3381,9.0,1/1,nova/virt/libvirt/rbd.py,,nova/virt/libvirt/rbd_utils.py,82.0,153.0,0.1111111111111111,0.19148936170212766,0.23316062176165803,core,
+NOVA 1438331 - CG,5876827d92bad3c408651184d9fea835639d8db8,2.0,0/0,,,,27.0,1.0,0.0,0.0,,core,
+NOVA 1441000,7dd6a4a19311136c02d89cd2afd97236b0f4cc27,5.0,1/1,nova/virt/libvirt/driver.py,,nova/virt/libvirt/driver.py,758.0,99.0,0.2,0.2847141190198366,0.036846874056176385,core,
+NOVA 1441000 - CG,f90885bacba3728dc9a35e99eecef37a37b881e2,2.0,0/0,,,,0.0,242.0,0.0,0.0,,core,
+NOVA 1443697,f3f1a53fe2bfe23229867c4a90f6456ac204181f,4.0,1/1,nova/virt/vmwareapi/vmops.py,,nova/virt/vmwareapi/vmops.py,318.0,417.0,0.25,0.23401360544217686,0.09701071630005641,core,
+NOVA 1443697 - CG,98dcd0dc6fe19ab243556874e4f0910e78484e02,3.0,0/0,,,,37.0,6.0,0.0,0.0,,peripheral,
+NOVA 1443970,447641972539f1e13923c6ee5d64169f4229b856,2.0,1/1,nova/network/manager.py,,nova/network/manager.py,33.0,5.0,0.5,0.9210526315789473,0.017292490118577076,core,
+NOVA 1443970 - CG,995ee643f3291157151d195552232d09d471d8c2,2.0,0/0,,,,174.0,42.0,0.0,0.0,,core,
+NOVA 1447249,1682c5b585835e151845c7f64a6c29bc21c29edc,2.0,1/1,nova/virt/ironic/driver.py,,nova/virt/ironic/driver.py,154.0,11.0,0.5,0.37575757575757573,0.05783582089552239,peripheral,
+NOVA 1447249 - CG,ce28166dcf25a3d589e6f020b2dfa64705d15126,1.0,0/0,,,,6.0,6.0,0.0,0.0,,core,
+NOVA 1453274,60c90f73261efb8c73ecc02152307c81265cab13,2.0,1/1,nova/virt/libvirt/driver.py,,nova/virt/libvirt/driver.py,89.0,52.0,0.5,0.7659574468085106,0.020018535681186285,core,
+NOVA 1453274 - CG,c363dae6a2b878db6801b502cced1fcc6aad2d0c,3.0,0/0,,,,133.0,4.0,0.0,0.0,,peripheral,
+NOVA 1466390,501ff418df4c08e52a697772200aa08dd67a4a43,7.0,1/1,nova/db/sqlalchemy/api.py,,nova/db/sqlalchemy/api.py,1064.0,0.0,0.14285714285714285,0.33270676691729323,0.06385281385281386,core,
+NOVA 1466390 - CG,fa6c2d4def22f0ddd296572d9ce5b3b6f7267e2f,2.0,0/0,,,,58.0,11.0,0.0,0.0,,peripheral,
+NOVA 1467451,0e02db2980dc4e76ef7949ba4ec131af9fc4a44d,18.0,2/2,"nova/virt/hyperv/vmutils.py
+nova/virt/hyperv/vmutilsv2.py",,"nova/virt/hyperv/vmutils.py
+nova/virt/hyperv/vmutilsv2.py",789.0,296.0,0.1111111111111111,0.0728110599078341,0.07640232108317214,peripheral,
+NOVA 1467451 - CG,c6088d94bfd11114c94b2bdf7bd51cb4b1989720,1.0,0/0,,,,1.0,1.0,0.0,0.0,,core,
+NOVA 1475356,0eb7e35fbfe5de5f9f00ff1a0cce1d6a61f3a902,5.0,1/1,nova/objects/base.py,,nova/objects/base.py,64.0,3.0,0.2,0.43283582089552236,0.048252911813643926,core,
+NOVA 1475356 - CG,c1dae06f1e366e7681fbffc776153b3ed3af2618,1.0,0/0,,,,3.0,1.0,0.0,0.0,,peripheral,
+NOVA 1475911,e310985b77d916b1ad7f9ec60a9a0b46364046ac,4.0,1/1,nova/cmd/idmapshift.py,,nova/cmd/idmapshift.py,860.0,0.0,0.25,0.26046511627906976,0.9955555555555555,core,
+NOVA 1475911 - CG,b826fba1cd61f7ddbee091c220eaef7ea5317c1b,1.0,0/0,,,,140.0,0.0,0.0,0.0,,peripheral,
+NOVA 1481078,31f208423405ed50bb5b32977071f917ac3ce26d,3.0,1/1,nova/virt/xenapi/vmops.py,,nova/virt/xenapi/vmops.py,51.0,21.0,0.3333333333333333,0.4444444444444444,0.013876843018213356,peripheral,
+NOVA 1481078 - CG,05120edf92627ff7ad20a928f8b94568031556c9,3.0,0/0,,,,1.0,24.0,0.0,0.0,,core,
+NOVA 1486541,f5071bd1ac00ed68102d37c8025d36df6777cd9e,7.0,0/1,,nova/compute/cells_api.py,nova/compute/cells_api.py,116.0,75.0,0.0,0.0,,core,
+NOVA 1486541 - CG,1d551dc96658ade41c8e9fabc6d9b41a28d5ed15,1.0,0/0,,,,7.0,4.0,0.0,0.0,,core,
+NOVA 1505471,64e167eb62bd3483b2947ec8de218453c116bd93,16.0,1/1,nova/servicegroup/db_driver.py,,nova/servicegroup/drivers/db.py,450.0,173.0,0.0625,0.1637239165329053,0.9902912621359223,core,
+NOVA 1505471 - CG,ac658aa7d0671fb9b5a0a2c504f4b73dff514da9,2.0,0/0,,,,9.0,8.0,0.0,0.0,,core,

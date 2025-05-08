@@ -1,0 +1,86 @@
+Variable	ID	Issue management (basic)	Issue management (advanced)	Issue management roles	Discussion aspects (action)	Discussion aspects (target)	Discussion aspects (topic)	Discussion frequency	Discussant roles	Discussion tools	Review scope	Commit type	Continuous Integration	Testing	Refactorings	Design changes	Dependencies	Documentation	Bug Type	Bug-covering QA measures
+B1 - Build tools	B1												TRUE							
+B2 - Dependency resolution	B2																TRUE			
+B3 - Build practices	B3												TRUE							
+C2.1 - Commit type (current)	C2.1											TRUE								
+C2.2 - Commit types (children)	C2.2											TRUE								
+C2.3 - Commit types (parents)	C2.3											TRUE								
+C3 - # Files changed	C3											TRUE								
+C4 - Commit file bugginess	C4											TRUE								
+C5 - Commit total line bugginess	C5											TRUE								
+C6 - Commit file line bugginess	C6											TRUE								
+C7 - Committer type	C7											TRUE								
+C8 - Multiple concerns	C8											TRUE								
+C9 - Commit type Swanson	C9											TRUE								
+C10 - Test changes	C10													TRUE						
+C11 - Bug-covering test changes	C11																			TRUE
+C12 - Bug-covering changes prior or subsequent commit	C12																			TRUE
+C13 - Test failures	C13													TRUE						
+C15 - Documentation changes	C15																	TRUE		
+C16 - Bug affecting documentation	C16																	TRUE		
+C17 - Refactorings	C17														TRUE					
+C18 - Bug-introducing refactorings	C18														TRUE					
+C19 - Design changes	C19															TRUE				
+C20 - Bug-introducing design changes	C20															TRUE				
+C21 - Change of external dependencies	C21																TRUE			
+C22 - Bug-introducing dependency changes	C22																TRUE			
+CI2 - CI build status	CI2												TRUE							
+CI3 - CI build status change	CI3												TRUE							
+F2 - Bug severity [max]	F2	TRUE																		
+F3 - Bug labels	F3	TRUE																		
+F4 - # Bug discussants	F4							TRUE												
+F4.1 - Bug discussant roles	F4.1								TRUE											
+F4.2 - Bug reporter role [max]	F4.2			TRUE																
+F4.3 - Bug assignee role [max]	F4.3			TRUE																
+F4.4 - Bug creator role [max]	F4.4			TRUE																
+F5 - Aspects of the Bug discussion: action	F5				TRUE															
+F5 - Aspects of the Bug discussion: target	F5					TRUE														
+F5 - Aspects of the Bug discussion: topic	F5						TRUE													
+F6 - Type of Bug [main]	F6																		TRUE	
+F7 - Has duplicates? [any]	F7		TRUE																	
+F8 - Bug reopened [any]	F8		TRUE																	
+F9 - # Bug comments [sum]	F9							TRUE												
+I2 - Introducing issue types [main]	I2	TRUE																		
+I3 - Introducing issue severity [max]	I3	TRUE																		
+I4 - Introducing issue labels	I4	TRUE																		
+I5 - # Introducing issue discussants [sum]	I5							TRUE												
+I5.1 - Introducing issue discussant roles	I5.1								TRUE											
+I5.2 - Introducing issue reporter role [max]	I5.2			TRUE																
+I5.3 - Introducing issue assignee role [max]	I5.3			TRUE																
+I5.4 - Introducing issue creator role [max]	I5.4			TRUE																
+I6 - Aspects of introducing issue discussion: action	I6				TRUE															
+I6 - Aspects of introducing issue discussion: target	I6					TRUE														
+I6 - Aspects of introducing issue discussion: topic	I6						TRUE													
+I7 - # Introducing issue commits [sum]	I7		TRUE																	
+I8 - does it have a wiki? or does it have a specification? [any]	I8																	TRUE		
+I9 - Introducing issue reopened [any]	I9		TRUE																	
+I10 - # Introducing issue comments [sum]	I10							TRUE												
+ML2 - # ML bug discussants [sum]	ML2							TRUE												
+ML2.1 - ML bug discussant roles	ML2.1								TRUE											
+ML3 - Aspects of ML bug discussion: action	ML3				TRUE															
+ML3 - Aspects of ML bug discussion: target	ML3					TRUE														
+ML3 - Aspects of ML bug discussion: topic	ML3						TRUE													
+ML5 - # ML introducing change discussants [sum]	ML5							TRUE												
+ML5.1 - ML introducing change discussant roles	ML5.1								TRUE											
+ML6 - Aspects of ML introducing change discussion: action	ML6				TRUE															
+ML6 - Aspects of ML introducing change discussion: target	ML6					TRUE														
+ML6 - Aspects of ML introducing change discussion: topic	ML6						TRUE													
+O2 - Type of other media in which bug was discussed	O2									TRUE										
+O3 - # Discussants in other media [sum]	O3							TRUE												
+O3.1 - Discussant roles in other media	O3.1								TRUE											
+O4 - Aspects of discussions in other media: action	O4				TRUE															
+O4 - Aspects of discussions in other media: target	O4					TRUE														
+O4 - Aspects of discussions in other media: topic	O4						TRUE													
+O5 - Buggy files arepresent in the BIC?	O5																		TRUE	
+R2 - Review tool [main]	R2									TRUE										
+R3 - # Reviewers [sum]	R3							TRUE												
+R4 - Reviewer types	R4								TRUE											
+R5 - # Review comments [sum]	R5							TRUE												
+R6 - # Rounds of code review [sum]	R6							TRUE												
+R7 - Caused changes [any]	R7										TRUE									
+R8 - Aspects of review comments: action	R8				TRUE															
+R8 - Aspects of review comments: target	R8					TRUE														
+R8 - Aspects of review comments: topic	R8						TRUE													
+R9 - Bug covering review comments [any]	R9																			TRUE
+R10 - Bug covering review changes [any]	R10																			TRUE
+R11 - Review branch	R11										TRUE									

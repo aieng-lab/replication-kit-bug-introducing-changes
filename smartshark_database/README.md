@@ -18,7 +18,6 @@ The database dump should be downloaded from Zenodo and placed in the `db` folder
 
 ```bash
 wget -O db/smartshark_db.gz https://zenodo.org/records/15363704/files/smartshark_db.gz
-# Replace the URL with the actual Zenodo link
 ```
 
 The database dump is a gzipped archive. To restore the database, run the following commands:

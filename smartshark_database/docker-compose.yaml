@@ -1,0 +1,150 @@
+###############################################################
+#
+# IMPORTANT: Do not run all smartshark services at once.
+#            Run them one by one!
+#
+###############################################################
+#
+# Requires to have a .env file with the following variables:
+# DB_PW: The password for the mongo root user
+# DB_NAME: The name of the database
+# DB_HOST: The host of the database
+# DB_PORT: The port of the database
+# GH_TOKEN: The token for the github api
+#
+###############################################################
+
+version: "3"
+
+services:
+  mongo:
+    image: mongo
+    restart: always
+    ports:
+      - 27017:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: ${DB_PW}
+    volumes:
+      - ./db:/db
+
+  vcsshark-elasticsearch:
+    build: .
+    command: sh -c 'vcsshark -D mongo -U ${DB_USER} -P ${DB_PW} -DB ${DB_NAME} -H ${DB_HOST} -p ${DB_PORT} --project-name $$PROJECT --path /repos/$$PROJECT -a admin --cores-per-job 1'
+    environment:
+      PROJECT: elasticsearch
+    volumes:
+      - ./repos:/repos
+
+  vcsshark-nova:
+    build: .
+    command: sh -c 'vcsshark -D mongo -U ${DB_USER} -P ${DB_PW} -DB ${DB_NAME} -H ${DB_HOST} -p ${DB_PORT} --project-name $$PROJECT --path /repos/$$PROJECT -a admin --cores-per-job 1'
+    environment:
+      PROJECT: nova
+    volumes:
+      - ./repos:/repos
+
+  issueshark-elasticsearch:
+    build: .
+    command: sh -c 'python3 issueSHARK/main.py -D mongo -U ${DB_USER} -P ${DB_PW} -DB ${DB_NAME} -H ${DB_HOST} -p ${DB_PORT} --project-name $$PROJECT -i $$URL -b $$BACKEND -a admin --token ${GH_TOKEN} -ll INFO'
+    environment:
+      PROJECT: elasticsearch
+      BACKEND: github
+      URL: https://api.github.com/repos/elastic/elasticsearch/issues
+
+  issueshark-nova:
+    build: .
+    command: sh -c 'python3 -u issueSHARK/main.py -D mongo -U ${DB_USER} -P ${DB_PW} -DB ${DB_NAME} -H ${DB_HOST} -p ${DB_PORT} --project-name $$PROJECT -i $$URL -b $$BACKEND -a admin -ll INFO'
+    environment:
+      PROJECT: nova
+      BACKEND: launchpad
+      URL: https://api.launchpad.net/devel/nova
+    volumes:
+      - ./repos:/repos
+
+  linkshark-elasticsearch:
+    build: .
+    command: sh -c 'python3 linkSHARK/main.py -D mongo -U ${DB_USER} -P ${DB_PW} -DB ${DB_NAME} -H ${DB_HOST} -p ${DB_PORT} --project-name $$PROJECT -a admin -ll INFO'
+    environment:
+      PROJECT: elasticsearch
+    volumes:
+      - ./repos:/repos
+
+  linkshark-nova:
+    build: .
+    command: sh -c 'python3 linkSHARK/main.py -D mongo -U ${DB_USER} -P ${DB_PW} -DB ${DB_NAME} -H ${DB_HOST} -p ${DB_PORT} --project-name $$PROJECT -a admin'
+    environment:
+      PROJECT: nova
+    volumes:
+      - ./repos:/repos
+
+  labelshark-elasticsearch:
+    build: .
+    command: sh -c 'python3 labelSHARK/labelSHARK/smartshark_plugin.py -D mongo -U ${DB_USER} -P ${DB_PW} -DB ${DB_NAME} -H ${DB_HOST} -p ${DB_PORT} -n $$PROJECT -a admin -ll INFO'
+    environment:
+      PROJECT: elasticsearch
+
+  labelshark-nova:
+    build: .
+    command: sh -c 'python3 labelSHARK/labelSHARK/smartshark_plugin.py -D mongo -U ${DB_USER} -P ${DB_PW} -DB ${DB_NAME} -H ${DB_HOST} -p ${DB_PORT} -n $$PROJECT -a admin -ll INFO'
+    environment:
+      PROJECT: nova
+
+  inducingshark-elasticsearch:
+    build: .
+    command: sh -c 'python3 inducingSHARK/inducingSHARK/smartshark_plugin.py -D mongo -U ${DB_USER} -P ${DB_PW} -DB ${DB_NAME} -H ${DB_HOST} -p ${DB_PORT} --project-name $$PROJECT -i /repos/$$PROJECT -a admin -ll INFO'
+    environment:
+      PROJECT: elasticsearch
+    volumes:
+      - ./repos:/repos
+
+  inducingshark-nova:
+    build: .
+    command: sh -c 'python3 inducingSHARK/inducingSHARK/smartshark_plugin.py -D mongo -U ${DB_USER} -P ${DB_PW} -DB ${DB_NAME} -H ${DB_HOST} -p ${DB_PORT} --project-name $$PROJECT -i /repos/$$PROJECT -a admin -ll INFO'
+    environment:
+      PROJECT: nova
+    volumes:
+      - ./repos:/repos
+
+  prshark-elasticsearch:
+    build: .
+    command: sh -c 'python3 prSHARK/smartshark_plugin.py -D mongo -U ${DB_USER} -P ${DB_PW} -DB ${DB_NAME} -H ${DB_HOST} -p ${DB_PORT} --project-name $$PROJECT -i $$URL -b $$BACKEND -a admin --token ${GH_TOKEN}'
+    environment:
+      PROJECT: elasticsearch
+      BACKEND: github
+      URL: https://api.github.com/repos/elastic/elasticsearch/pulls
+
+  reviewshark-nova:
+    build: .
+    command: sh -c 'python3 reviewSHARK/smartshark_plugin.py -D mongo -U ${DB_USER} -P ${DB_PW} -DB ${DB_NAME} -H ${DB_HOST} -p ${DB_PORT} --project-name $$PROJECT -i $$URL -apn $$ALTERNATE_PROJECT_NAME -b $$BACKEND -a admin'
+    environment:
+      PROJECT: nova
+      ALTERNATE_PROJECT_NAME: openstack/nova
+      BACKEND: gerrit
+      URL: https://review.opendev.org
+
+  mailingshark-nova:
+    build: .
+    command: sh -c 'python3 mailingSHARK/main.py -D mongo -U ${DB_USER} -P ${DB_PW} -DB ${DB_NAME} -H ${DB_HOST} -p ${DB_PORT} --project-name $$PROJECT -m $$URL -b $$BACKEND -o ./temp -a admin --debug INFO'
+    environment:
+      PROJECT: "nova"
+      BACKEND: pipermail
+      URL: https://lists.openstack.org/pipermail/openstack-dev/
+
+  identityshark:
+    build: .
+    command: sh -c 'cd identitySHARK && python3 main.py -D mongo -U ${DB_USER} -P ${DB_PW} -DB ${DB_NAME} -H ${DB_HOST} -p ${DB_PORT} --whitelist-emails ${IDENTITY_WHITELIST} -a admin --debug INFO'
+
+  # Uncomment and run the following lines to delete the projects from the database:
+
+  # delete-elasticsearch:
+  #   build: .
+  #   command: sh -c "python3 -c \"from pycoSHARK.pycoshark import utils; utils.delete_projects(projects=['$$PROJECT'], db_name='${DB_NAME}', db_user='root', db_password='${DB_PW}', db_hostname='${DB_HOST}', db_authentication_db='admin')\""
+  #   environment:
+  #     PROJECT: elasticsearch
+
+  # delete-nova:
+  #   build: .
+  #   command: sh -c "python3 -c \"from pycoSHARK.pycoshark import utils; utils.delete_projects(projects=['$$PROJECT'], db_name='${DB_NAME}', db_user='root', db_password='${DB_PW}', db_hostname='${DB_HOST}', db_authentication_db='admin')\""
+  #   environment:
+  #     PROJECT: nova

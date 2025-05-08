@@ -1,0 +1,69 @@
+FROM ubuntu:22.04
+
+ENV rebuild_num 2
+
+RUN apt update
+RUN apt install -y git python3-pip python3-cffi
+RUN apt install -y cmake
+RUN apt install -y wget
+
+RUN wget https://github.com/libgit2/libgit2/archive/refs/tags/v0.26.2.tar.gz -O libgit.tar.gz
+RUN tar xzf libgit.tar.gz
+
+RUN cmake libgit2-0.26.2
+RUN make
+RUN make install
+
+RUN apt install -y libgit2-dev
+RUN pip install fasttext-wheel setuptools pip pympler
+RUN pip install numpy>=1.22
+
+RUN git clone https://github.com/l-schulte/vcsSHARK.git
+# Contains workaround for hunk size (2 hunks are too large for mongodb and are skipped)
+RUN cd vcsSHARK && git checkout fix_operationfailure_hunksize
+RUN pip install /vcsSHARK
+
+RUN git clone https://github.com/smartshark/prSHARK.git
+RUN cd prSHARK && git checkout tags/1.0.2
+RUN python3 /prSHARK/setup.py install
+
+RUN git clone https://github.com/l-schulte/prSHARK.git reviewSHARK
+# Contains code for mining gerrit
+RUN cd reviewSHARK && git checkout gerrit
+RUN pip install reviewSHARK/
+
+RUN git clone https://github.com/smartshark/mailingSHARK.git
+RUN cd mailingSHARK && git checkout tags/2.0.2
+RUN python3 /mailingSHARK/setup.py install
+
+RUN git clone https://github.com/l-schulte/linkSHARK.git
+# Contains adjustments for launchpad
+RUN cd linkSHARK && git checkout launchpad
+RUN python3 /linkSHARK/setup.py install
+
+RUN git clone https://github.com/l-schulte/labelSHARK.git
+# Contains adjustments for launchpad
+RUN cd labelSHARK && git checkout launchpad
+RUN python3 /labelSHARK/setup.py install
+
+RUN git clone https://github.com/l-schulte/inducingSHARK.git
+# Contains adjustments for launchpad
+RUN cd inducingSHARK && git checkout launchpad
+RUN python3 /inducingSHARK/setup.py install
+
+RUN git clone https://github.com/l-schulte/issueSHARK.git
+# Contains code for mining launchpad
+RUN cd issueSHARK && git checkout launchpad
+RUN python3 /issueSHARK/setup.py install
+
+RUN git clone https://github.com/l-schulte/identitySHARK.git
+# Contains a fix for breaking dependencies
+RUN python3 /identitySHARK/setup.py install
+
+# !Install pycoSHARK last!
+RUN git clone https://github.com/l-schulte/pycoSHARK.git
+# Contains changes to store launchpad and gerrit
+RUN cd pycoSHARK && git checkout reviewSHARK
+RUN pip install pycoSHARK/
+
+ENV AM_I_IN_A_DOCKER_CONTAINER Yes

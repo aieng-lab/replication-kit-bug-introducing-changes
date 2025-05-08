@@ -1,0 +1,143 @@
+F1 - Bug ID,I1 - Introducing issues IDs,I3 - Introducing issue severity [max],I4 - Introducing issue labels,I5.2 - Introducing issue reporter role [max],I5.3 - Introducing issue assignee role [max],I5.4 - Introducing issue creator role [max],I7 - # Introducing issue commits [sum],I9 - Introducing issue reopened [any],I5 - # Introducing issue discussants [sum],I5.1 - Introducing issue discussant roles,I10 - # Introducing issue comments [sum],I11 - # Introducing issue comments after closed (first) [sum],I12 - # Introducing issue comments after closed (last) [sum]
+Elastic Search 1134,['1104'],,"['v0.17.0', '>enhancement']",core,,core,1.0,False,1.0,['core'],0.0,0.0,0.0
+Elastic Search 1134 - CG,,,,,,,,,,,,,
+Elastic Search 1154,,,,,,,,,,,,,
+Elastic Search 1154 - CG,,,,,,,,,,,,,
+Elastic Search 1162,,,,,,,,,,,,,
+Elastic Search 1162 - CG,,,,,,,,,,,,,
+Elastic Search 12193,,,,,,,,,,,,,
+Elastic Search 12193 - CG,,,,,,,,,,,,,
+Elastic Search 1380,['873'],,"['v0.16.0', '>bug']",not involved,,not involved,1.0,True,2.0,"['not involved', 'core']",7.0,2.0,0.0
+Elastic Search 1380 - CG,,,,,,,,,,,,,
+Elastic Search 14782,['12527'],,[':Search/Search'],not involved,,not involved,1.0,False,2.0,"['not involved', 'core']",14.0,0.0,0.0
+Elastic Search 14782 - CG,,,,,,,,,,,,,
+Elastic Search 15858,['1420'],,"['>enhancement', 'v0.18.0']",not involved,,not involved,1.0,False,3.0,"['core', 'not involved', 'not involved']",6.0,6.0,6.0
+Elastic Search 15858 - CG,['1368'],,"['v0.17.8', '>enhancement', 'v0.18.0']",core,,core,2.0,False,1.0,['core'],0.0,0.0,0.0
+Elastic Search 16246,['15036'],,"[':Data Management/Ingest Node', '>enhancement']",core,core,core,1.0,False,1.0,['core'],1.0,0.0,0.0
+Elastic Search 16246 - CG,,,,,,,,,,,,,
+Elastic Search 1626,,,,,,,,,,,,,
+Elastic Search 1626 - CG,,,,,,,,,,,,,
+Elastic Search 16790,['12479'],,"[':Core/Infra/Plugins', '>bug']",not involved,not involved,not involved,3.0,False,3.0,"['not involved', 'not involved', 'core']",10.0,0.0,0.0
+Elastic Search 16790 - CG,,,,,,,,,,,,,
+Elastic Search 1725,['181'],,"['v0.08.0', '>enhancement']",core,,core,1.0,False,2.0,"['core', 'not involved']",3.0,0.0,0.0
+Elastic Search 1725 - CG,,,,,,,,,,,,,
+Elastic Search 1814,,,,,,,,,,,,,
+Elastic Search 1814 - CG,['362'],,"['v0.11.0', '>bug']",not involved,,not involved,1.0,False,2.0,"['core', 'not involved']",1.0,0.0,0.0
+Elastic Search 1948,['725'],,"['v0.15.1', 'v0.16.0', '>bug']",core,,core,2.0,False,1.0,['core'],1.0,0.0,0.0
+Elastic Search 1948 - CG,,,,,,,,,,,,,
+Elastic Search 1960,['540'],,"['>feature', 'v0.14.0']",core,,core,2.0,False,1.0,['core'],1.0,0.0,0.0
+Elastic Search 1960 - CG,,,,,,,,,,,,,
+Elastic Search 200,,,,,,,,,,,,,
+Elastic Search 200 - CG,,,,,,,,,,,,,
+Elastic Search 2566,,,,,,,,,,,,,
+Elastic Search 2566 - CG,,,,,,,,,,,,,
+Elastic Search 2608,['557'],,"['>feature', 'v0.14.0']",core,,core,3.0,False,1.0,['core'],1.0,0.0,0.0
+Elastic Search 2608 - CG,,,,,,,,,,,,,
+Elastic Search 2991,,,,,,,,,,,,,
+Elastic Search 2991 - CG,['2604'],,"['v0.90.0.Beta1', '>enhancement']",core,,core,1.0,False,1.0,['core'],0.0,0.0,0.0
+Elastic Search 3242,,,,,,,,,,,,,
+Elastic Search 3242 - CG,,,,,,,,,,,,,
+Elastic Search 3267,['1068'],,"['>feature', 'v0.17.0']",core,,core,1.0,False,1.0,['core'],0.0,0.0,0.0
+Elastic Search 3267 - CG,,,,,,,,,,,,,
+Elastic Search 3560,,,,,,,,,,,,,
+Elastic Search 3560 - CG,['3410'],,"['v0.90.3', '>enhancement', 'v1.0.0.Beta1']",core,core,core,2.0,False,1.0,['core'],0.0,0.0,0.0
+Elastic Search 4581,,,,,,,,,,,,,
+Elastic Search 4581 - CG,,,,,,,,,,,,,
+Elastic Search 4814,['4557'],,"['>enhancement', 'v1.0.0.RC1']",not involved,not involved,not involved,1.0,False,3.0,"['core', 'not involved', 'core']",5.0,0.0,0.0
+Elastic Search 4814 - CG,['4782'],,"['>regression', 'v1.0.0', '>bug']",not involved,not involved,not involved,1.0,False,2.0,"['not involved', 'not involved']",1.0,0.0,0.0
+Elastic Search 5021,['3300'],,"['v1.0.0.Beta2', '>feature']",not involved,not involved,not involved,1.0,False,17.0,"['not involved', 'not involved', 'not involved', 'not involved', 'not involved', 'not involved', 'peripheral', 'peripheral', 'not involved', 'not involved', 'not involved', 'not involved', 'not involved', 'not involved', 'not involved', 'not involved', 'not involved']",30.0,0.0,0.0
+Elastic Search 5021 - CG,,,,,,,,,,,,,
+Elastic Search 5048,['3300'],,"['v1.0.0.Beta2', '>feature']",not involved,not involved,not involved,1.0,False,17.0,"['not involved', 'not involved', 'not involved', 'not involved', 'not involved', 'not involved', 'peripheral', 'peripheral', 'not involved', 'not involved', 'not involved', 'not involved', 'not involved', 'not involved', 'not involved', 'not involved', 'not involved']",30.0,0.0,0.0
+Elastic Search 5048 - CG,['4508'],,"['v1.0.0.RC1', '>breaking', '>bug']",core,core,core,1.0,False,1.0,['core'],0.0,0.0,0.0
+Elastic Search 5165,['3574'],,"['>feature', 'v1.0.0.Beta1']",core,core,core,1.0,False,1.0,['core'],0.0,0.0,0.0
+Elastic Search 5165 - CG,,,,,,,,,,,,,
+Elastic Search 5948,['4670'],,"['v1.0.0', '>bug']",not involved,not involved,not involved,1.0,False,1.0,['not involved'],0.0,0.0,0.0
+Elastic Search 5948 - CG,,,,,,,,,,,,,
+Elastic Search 7623,,,,,,,,,,,,,
+Elastic Search 7623 - CG,,,,,,,,,,,,,
+Elastic Search 764,,,,,,,,,,,,,
+Elastic Search 764 - CG,,,,,,,,,,,,,
+Elastic Search 7686,['865'],,"['>feature', 'v0.16.0']",core,,core,1.0,False,4.0,"['core', 'not involved', 'not involved', 'not involved']",7.0,7.0,7.0
+Elastic Search 7686 - CG,['831'],,"['>enhancement', 'v0.16.0', '>bug']",core,,core,1.0,False,1.0,['core'],1.0,0.0,0.0
+Elastic Search 8125,['6410'],,"['v2.0.0-beta1', 'blocker', 'v1.4.0.Beta1', '>bug']",not involved,core,not involved,6.0,False,6.0,"['not involved', 'not involved', 'core', 'not involved', 'not involved', 'not involved']",5.0,0.0,0.0
+Elastic Search 8125 - CG,,,,,,,,,,,,,
+Elastic Search 8438,['6118'],,"['v2.0.0-beta1', '>feature', 'release highlight', 'v1.4.0.Beta1']",not involved,not involved,not involved,2.0,False,4.0,"['not involved', 'core', 'not involved', 'not involved']",4.0,0.0,0.0
+Elastic Search 8438 - CG,['21'],,"['>feature', 'v0.05.0']",core,,core,11.0,False,2.0,"['core', 'not involved']",10.0,0.0,0.0
+Elastic Search 8507,['6908'],,"['v2.0.0-beta1', '>enhancement', ':Search/Search', 'v1.4.0.Beta1']",not involved,,not involved,11.0,False,3.0,"['core', 'core', 'not involved']",12.0,0.0,0.0
+Elastic Search 8507 - CG,['7067'],,"['v2.0.0-beta1', ':Distributed/Discovery-Plugins', 'v1.4.0.Beta1', '>bug']",not involved,not involved,not involved,3.0,False,2.0,"['core', 'not involved']",2.0,0.0,0.0
+Elastic Search 8526,['2778'],,[],not involved,,not involved,2.0,False,2.0,"['not involved', 'not involved']",1.0,0.0,0.0
+Elastic Search 8526 - CG,,,,,,,,,,,,,
+Elastic Search 8580,['6908'],,"['v2.0.0-beta1', '>enhancement', ':Search/Search', 'v1.4.0.Beta1']",not involved,,not involved,11.0,False,3.0,"['core', 'core', 'not involved']",12.0,0.0,0.0
+Elastic Search 8580 - CG,['6849'],,"['v2.0.0-beta1', 'v1.3.0', '>bug']",not involved,,not involved,3.0,False,2.0,"['core', 'not involved']",2.0,0.0,0.0
+Elastic Search 864,['88'],,"['>feature', 'v0.06.0']",core,,core,2.0,False,2.0,"['core', 'not involved']",2.0,0.0,0.0
+Elastic Search 864 - CG,,,,,,,,,,,,,
+Elastic Search 8893,"['4718', '7036']",,"['v1.4.0.Beta1', '>feature', '>bug', ':Search/Mapping', 'v2.0.0-beta1']",core,core,core,7.0,False,6.0,"['not involved', 'not involved', 'not involved', 'core', 'not involved', 'core']",17.0,2.0,2.0
+Elastic Search 8893 - CG,,,,,,,,,,,,,
+Elastic Search 9317,['8454'],,"[':Search/Search', 'v1.4.1', '>bug', 'v1.5.0', 'v2.0.0-beta1']",core,,core,3.0,False,2.0,"['not involved', 'core']",6.0,0.0,0.0
+Elastic Search 9317 - CG,,,,,,,,,,,,,
+NOVA 1294939,['nova-network-objects'],Medium,[],not involved,peripheral,,50.0,False,,,,,
+NOVA 1294939 - CG,['compute-manager-objects'],Medium,[],peripheral,peripheral,peripheral,44.0,False,,,,,
+NOVA 1300788,['1186944'],Medium,['vmware'],not involved,not involved,not involved,2.0,False,4.0,"['not involved', 'peripheral', 'not involved', 'not involved']",7.0,2.0,2.0
+NOVA 1300788 - CG,,,,,,,,,,,,,
+NOVA 1307791,['1067214'],Medium,['verification-needed'],peripheral,core,peripheral,2.0,False,6.0,"['peripheral', 'not involved', 'not involved', 'core', 'not involved', 'core']",11.0,2.0,2.0
+NOVA 1307791 - CG,['884842'],Medium,['forward-port-needed'],not involved,not involved,not involved,1.0,False,3.0,"['not involved', 'not involved', 'not involved']",3.0,0.0,0.0
+NOVA 1314677,['eliminate-clear-passwords-from-cells-table'],Medium,[],not involved,not involved,not involved,2.0,False,,,,,
+NOVA 1314677 - CG,['1208656'],Undecided,[],core,core,core,1.0,False,3.0,"['core', 'core', 'not involved']",3.0,0.0,0.0
+NOVA 1336127,['remove-cast-to-schedule-run-instance'],High,[],not involved,not involved,,14.0,False,,,,,
+NOVA 1336127 - CG,['assertequal'],Low,[],not involved,not involved,not involved,16.0,False,1.0,['not involved'],0.0,0.0,0.0
+NOVA 1343080,,,,,,,,,,,,,
+NOVA 1343080 - CG,['897155'],High,['in-stable-diablo'],core,core,core,3.0,False,4.0,"['core', 'not involved', 'not involved', 'not involved']",5.0,1.0,1.0
+NOVA 1367363,['1243083'],Undecided,['lxc'],not involved,not involved,not involved,1.0,False,2.0,"['not involved', 'not involved']",2.0,0.0,0.0
+NOVA 1367363 - CG,['icehouse-objects'],Medium,[],peripheral,peripheral,,41.0,False,,,,,
+NOVA 1370177,"['icehouse-objects', 'clean-up-legacy-block-device-mapping']",Medium,[],core,core,core,57.0,False,,,,,
+NOVA 1370177 - CG,['aggregate-api-policy'],Low,[],peripheral,peripheral,peripheral,1.0,False,,,,,
+NOVA 1370590,['libvirt-start-lxc-from-block-devices'],Low,[],not involved,not involved,not involved,2.0,False,,,,,
+NOVA 1370590 - CG,,,,,,,,,,,,,
+NOVA 1371677,['lvm-ephemeral-storage-encryption'],Low,[],core,core,core,1.0,False,,,,,
+NOVA 1371677 - CG,,,,,,,,,,,,,
+NOVA 1375379,['libvirt-spice'],Medium,[],core,core,core,7.0,False,,,,,
+NOVA 1375379 - CG,,,,,,,,,,,,,
+NOVA 1381468,['1373993'],Critical,['scheduler'],core,core,core,3.0,False,3.0,"['core', 'not involved', 'core']",9.0,4.0,4.0
+NOVA 1381468 - CG,,,,,,,,,,,,,
+NOVA 1392798,['1131588'],High,[],core,not involved,core,1.0,False,3.0,"['core', 'not involved', 'not involved']",4.0,0.0,0.0
+NOVA 1392798 - CG,,,,,,,,,,,,,
+NOVA 1402535,,,,,,,,,,,,,
+NOVA 1402535 - CG,['1148734'],Low,[],not involved,core,not involved,1.0,False,4.0,"['core', 'core', 'not involved', 'not involved']",3.0,0.0,0.0
+NOVA 1402728,,,,,,,,,,,,,
+NOVA 1402728 - CG,['pci-passthrough-sriov'],Medium,[],core,core,,9.0,False,,,,,
+NOVA 1403544,,,,,,,,,,,,,
+NOVA 1403544 - CG,,,,,,,,,,,,,
+NOVA 1419002,,,,,,,,,,,,,
+NOVA 1419002 - CG,,,,,,,,,,,,,
+NOVA 1424647,,,,,,,,,,,,,
+NOVA 1424647 - CG,,,,,,,,,,,,,
+NOVA 1434855,['ec2-api'],Medium,[],not involved,not involved,not involved,1.0,False,,,,,
+NOVA 1434855 - CG,['v3-api-policy'],Medium,[],core,peripheral,core,62.0,False,,,,,
+NOVA 1437855,['multi-nic-floating-ip-assignment'],Medium,[],core,core,,1.0,False,,,,,
+NOVA 1437855 - CG,,,,,,,,,,,,,
+NOVA 1438331,['1346092'],Undecided,[],core,core,core,2.0,False,4.0,"['core', 'not involved', 'core', 'not involved']",3.0,0.0,0.0
+NOVA 1438331 - CG,['compute-manager-objects-juno'],High,[],peripheral,peripheral,peripheral,85.0,False,,,,,
+NOVA 1441000,['1414065'],High,"['in-stable-juno', 'juno-backport-potential', 'libvirt']",core,core,core,3.0,False,4.0,"['not involved', 'not involved', 'not involved', 'core']",13.0,6.0,6.0
+NOVA 1441000 - CG,,,,,,,,,,,,,
+NOVA 1443697,"['1407438', '1407050', '1402784']",High,['vmware'],not involved,not involved,not involved,5.0,False,9.0,"['core', 'not involved', 'not involved', 'core', 'not involved', 'not involved', 'core', 'not involved', 'not involved']",19.0,0.0,0.0
+NOVA 1443697 - CG,['v3-api-policy'],Medium,[],core,peripheral,core,62.0,False,,,,,
+NOVA 1443970,['better-support-for-multiple-networks'],Low,[],core,core,core,12.0,False,,,,,
+NOVA 1443970 - CG,,,,,,,,,,,,,
+NOVA 1447249,['use-configdrive-with-ironic'],Low,[],peripheral,peripheral,peripheral,1.0,False,,,,,
+NOVA 1447249 - CG,['kilo-objects'],High,[],peripheral,peripheral,peripheral,79.0,False,,,,,
+NOVA 1453274,['1333827'],Undecided,"['libvirt', 'lxc']",not involved,,not involved,1.0,False,3.0,"['peripheral', 'not involved', 'not involved']",3.0,0.0,0.0
+NOVA 1453274 - CG,['1348288'],Undecided,[],not involved,peripheral,not involved,1.0,False,3.0,"['not involved', 'peripheral', 'not involved']",6.0,0.0,0.0
+NOVA 1466390,['instance-group-api-extension'],Medium,[],peripheral,not involved,peripheral,11.0,False,,,,,
+NOVA 1466390 - CG,['1180178'],Critical,['baremetal'],peripheral,core,peripheral,4.0,False,3.0,"['core', 'peripheral', 'not involved']",8.0,0.0,0.0
+NOVA 1467451,['hyper-v-smbfs-volume-support'],Low,[],peripheral,peripheral,peripheral,1.0,False,,,,,
+NOVA 1467451 - CG,,,,,,,,,,,,,
+NOVA 1475356,['1258256'],Medium,"['in-stable-havana', 'unified-objects']",peripheral,peripheral,peripheral,5.0,False,2.0,"['peripheral', 'not involved']",8.0,0.0,0.0
+NOVA 1475356 - CG,,,,,,,,,,,,,
+NOVA 1475911,['libvirt-lxc-user-namespaces'],Low,[],core,core,core,5.0,False,,,,,
+NOVA 1475911 - CG,,,,,,,,,,,,,
+NOVA 1481078,['1432913'],Low,[],peripheral,peripheral,peripheral,1.0,False,2.0,"['peripheral', 'not involved']",2.0,0.0,0.0
+NOVA 1481078 - CG,['nova-no-downward-sql-migration'],High,[],not involved,core,not involved,2.0,False,,,,,
+NOVA 1486541,"['icehouse-objects', 'clean-up-legacy-block-device-mapping']",Medium,[],core,core,core,57.0,False,,,,,
+NOVA 1486541 - CG,"['icehouse-objects', 'compute-manager-objects']",Medium,[],peripheral,peripheral,peripheral,85.0,False,,,,,
+NOVA 1505471,,,,,,,,,,,,,
+NOVA 1505471 - CG,['scope-config-opts'],Medium,[],core,core,core,42.0,False,,,,,

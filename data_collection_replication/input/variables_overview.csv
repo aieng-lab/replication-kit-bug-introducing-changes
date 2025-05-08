@@ -1,0 +1,89 @@
+ID	Name	Scale	Collection	Aggregation	Note	Description	Mapping	Project exclusive	Incomparable	Project dependent
+F1	Bug ID	Nominal	automated			Identifier of the bug within the issue tracking system.			TRUE	
+F2	Bug severity	Nominal	automated	max	Project exclusivity (only available in NOVA)	Severity of the bug, e.g., major or minor		TRUE	TRUE	
+F3	Bug labels	List of nominals	automated			Additional labels of the bug, e.g., components or similar. 			TRUE	TRUE
+F4	# Bug discussants	Integer	automated			Number of people involved in the reporting and discussion of the bug			TRUE	
+F4.1	Bug discussant roles	List of nominals	automated						TRUE	
+F4.2	Bug reporter role	Nominal	automated	max					TRUE	
+F4.3	Bug assignee role	Nominal	automated	max					TRUE	
+F4.4	Bug creator role	Nominal	automated	max					TRUE	
+F5	Aspects of the Bug discussion	List of nominals	manual			Aspects that were discussed, e.g., how to fix the bug or related features. Stored as a list as discussion may have multiple aspects. (description of the bugs, title and comments)			TRUE	
+F6	Type of Bug	Nominal	manual	main		Type of bug that was introduced following the taxonomy proposed by Catolino et al. [3] as one of the following: configuration issue, network issue, database-related issue, GUI-related issue, performance issue, permission/deprecation issue, security issue, program anomaly issue, and test code-related issue.			TRUE	
+F7	Bug has duplicate	Boolean	manual	any		Whether the bug has any duplicate within the project.			TRUE	
+F8	Bug reopened	Boolean	automated	any		Yes, in case the bug was reopened at some point on time.. No, in the other case.			TRUE	
+F9	# Bug comments	Integer	automated	sum					TRUE	
+										
+I1	Introducing issues IDs	List of nominals	automated			Identifier of the issue as part of which the development happened that introduced the bug. All related variables are lists, as there might have been parallel development on multiple issues.				
+I2	Introducing issue types	Nominal	manual	main		Type of the introducing issue, e.g., bug or improvement.				
+I3	Introducing issue severity	Nominal	automated	max	Project exclusivity (only available in NOVA)	Severity of the introducing issue		TRUE		
+I4	Introducing issue labels	List of nominals	automated			Additional labels of the introducing issue.				TRUE
+I5	# Introducing issue discussants	Integer	automated	sum		Number of people involved in the reporting and discussion of [per] issue				
+I5.1	Introducing issue discussant roles	List of nominals	automated			Whether the issue discussants were core developers, peripheral developers or not involved in the project before.				
+I5.2	Introducing issue reporter role	Nominal	automated	max		Whether the highest-ranking issue reporter was a core developer, peripheral developer or not involved in the project before.				
+I5.3	Introducing issue assignee role	Nominal	automated	max		Whether the highest-ranking issue assignee was a core developer, peripheral developer or not involved in the project before				
+I5.4	Introducing issue creator role	Nominal	automated	max		Whether the highest-ranking issue creator was a core developer, peripheral developer or not involved in the project before.				
+I6	Aspects of introducing issue discussion	List of nominals	manual			Aspects that were discussed, e.g., discussion of solution variants. Stored as a list as a discussion may have multiple aspects				
+I7	# Introducing issue commits	Integer	automated	sum		Number of commits in which the introducing issue was addressed.				
+I8	Introducing issue has wiki/specification	Boolean	manual	any	Project exclusivity (only available in NOVA)	if the Introducing issue has a wiki or a specification. Which means that the introducing issue has a detailed description of the issue		TRUE		
+I9	Introducing issue reopened	Boolean	automated	any						
+I10	# Introducing issue comments	Integer	automated	sum						
+										
+ML1	ML bug discussion IDs	List of nominals	manual		Project exclusivity (only available in NOVA)	Identifier of emails related to the discussion of the bug (i.e. the bug fixing commit and the bug issue) on the Mailing List (ML).		TRUE		
+ML2	# ML bug discussants	Integer	automated	sum	Project exclusivity (only available in NOVA)	Number of people involved in the discussion of the bug on the ML.		TRUE		
+ML2.1	ML bug discussant roles	List of nominals	automated		Project exclusivity (only available in NOVA)	Whether the discussants in the ML of the bug were core developers, peripheral developers or not involved in the project before.		TRUE		
+ML3	Aspects of ML bug discussion	List of nominals	manual		Project exclusivity (only available in NOVA)	Aspects that were discussed in the ML of the bug.		TRUE		
+ML4	ML introducing change discussion IDs	List of nominals	manual		Project exclusivity (only available in NOVA)	Identifier of emails related to the discussion of the introducing change (i.e. the introducing commit or the introducing issue).		TRUE		
+ML5	# ML introducing change discussants	Integer	automated	sum	Project exclusivity (only available in NOVA)	Number of people involved in the discussion of the introducing change on the ML.		TRUE		
+ML5.1	ML introducing change discussant roles	List of nominals	automated		Project exclusivity (only available in NOVA)	Whether the discussants in the ML of the introducing change were core developers, peripheral developers or not involved in the project before.		TRUE		
+ML6	Aspects of ML introducing change discussion	List of nominals	manual		Project exclusivity (only available in NOVA)	Aspects that were discussed in the ML of the introducing change.		TRUE		
+										
+O1	Identifier of related information in other media	List of nominals	manual		Project exclusivity (only available in NOVA)	Identifier of all discussions about the bug that we could locate in other media of the project.		TRUE		
+O2	Type of other media in which bug was discussed	List of nominals	manual		Project exclusivity (only available in NOVA)	Types of other media that were used, e.g., developer blogs, forums, and chats		TRUE		
+O3	# Discussants in other media	Integer	automated	sum	Project exclusivity (only available in NOVA)	Number of discussants involved in other media.		TRUE		
+O3.1	Discussant roles in other media	List of nominals	automated		Project exclusivity (only available in NOVA)	Whether the discussants involved in other media were core developers, peripheral developers or not involved in the project before.		TRUE		
+O4	Aspects of discussions in other media	List of nominals	manual		Project exclusivity (only available in NOVA)	Aspects that were discussed in other media		TRUE		
+O5	Buggy files arepresent in the BIC?	Nominal	manual			Are the buggy files, indicated by Gema Study, present in in BIC? . Yes, all; Yes, partially; NO				
+										
+CI1	CI build ID	Nominal	automated		Project exclusivity (only available in NOVA)	Identifier of a build in the continuous integration (CI) system.		TRUE		
+CI2	CI build status	Nominal	automated		Project exclusivity (only available in NOVA)	Status of the CI build.		TRUE		
+CI3	CI build status change	Boolean	automated		Project exclusivity (only available in NOVA)	Whether the status of the CI build is the same as for the previous commit		TRUE		
+										
+B1	Build tools	List of nominals	manual		Project dependent	Tooling used for building the software, e.g., Gradle or Maven. List in case multiple tools are used as part of a tool chain. Based on our discussion, building is the process of developing, not on only "putting everything in a package"				TRUE
+B2	Dependency resolution	Nominal	manual		Project dependent	How external dependencies are resolved, e.g., to imported libraries. Possible values are remote repositories (e.g., maven central), project cache (i.e., a cache of dependencies that is maintained by the project), and mixed.				
+B3	Build practices	List of nominals	manual		Project dependent	The practices that are used as part of the build process as a list of nominal values. We pre-define a set of categories as part of this registration. This set will be inductively extended as part of the data collection, if required. The pre-defined categories are: usage of bug-finding static analysis tools (e.g., SpotBugs will be the tool in B1 for this practice), usage of style-checking static analysis tools (e.g., Checkstyle will be the tool in B1), execution of automated unit and integration tests, execution and reporting of automated system tests, execution and reporting of other automated tests (e.g., performance tests), measurement and reporting of code coverage, and generation of source code documentation				TRUE
+										
+C1	Commit revision hash	Nominal	automated			Revision hash of the bug-introducing change				
+C2.1	Commit type (current)	Nominal	manual			How the commit was added to the main branch as one of the following: direct commit, merge of pull request, merge of textual diff provided, other.				TRUE
+C2.2	Commit types (children)	List of nominals	manual			How the child commits were added to the main branch between the following: direct commit, merge of pull request, merge of textual diff provided, other.				TRUE
+C2.3	Commit types (parents)	List of nominals	manual			How the parent commits were added to the main branch between the following: direct commit, merge of pull request, merge of textual diff provided, other.				TRUE
+C3	# Files changed	Integer	automated			Number of files that were changed.				
+C4	Commit file bugginess	Float	automated			Percentage of changed files that were responsible for the bug introduction.			TRUE	
+C5	Commit total line bugginess	Float	automated			Percentage of code lines within the commit that are bug-introducing			TRUE	
+C6	Commit file line bugginess	Float	automated			Percentage of lines within the files that have bug-introducing changes			TRUE	
+C7	Committer type	Nominal	automated			Whether the developer was a core developer, peripheral developer, or first-time committer. Categories will be defined following Joblin et al..				
+C8	Multiple concerns	Boolean	manual			Whether the commit addressed multiple concerns, e.g., because multiple intends are stated in the commit messages or there are changes beyond the indent based on the commit message.				
+C9	Commit type Swanson	Nominal	manual			Commit type according to Swanson as perfective, corrective, adaptive. Encoded as a list, in case a commit tangles multiple concerns (e.g. a bug fix and a feature addition at the same time).				
+C10	Test changes	Boolean	manual			Whether any automated tests were added or changed				
+C11	Bug-covering test changes	Nominal	manual			Whether any tests covering the bug were added or changed. None, if there are no such changes; partial, if there are changes but not all introducing lines are covered; and covered, if all introducing lines are covered.			TRUE	
+C12	Bug-covering changes prior or subsequent commit	List of nominals	manual			Same as bug-covering test changes, except that neighboring commits (parents and children) and other commits for introducing issues are considered as well.			TRUE	
+C13	Test failures	Boolean	manual		Project exclusivity (only available in NOVA)	Whether there are any test failures reported		TRUE		
+C15	Documentation changes	Boolean	manual			Whether any documentation was changed.				
+C16	Bug affecting documentation	Boolean	manual			Whether any documentation directly related to the lines in which the bug was introduced changed, e.g., the comment of a method with bug-introducing code or in-line comments between bug-introducing code lines.			TRUE	
+C17	Refactorings	Boolean	manual			Whether any refactorings were conducted as part of the bug-introducing change				
+C18	Bug-introducing refactorings	Boolean	manual			Whether there are any refactorings within the bug-introducing code.			TRUE	
+C19	Design changes	Boolean	manual			Whether the change includes changes to the design (or architecture) of the software, e.g., by adding new classes or packages.				
+C20	Bug-introducing design changes	Boolean	manual			Whether there are any design changes as part of the bug-introducing code			TRUE	
+C21	Change of external dependencies	Boolean	manual			Whether there are any changes to the external dependencies, e.g., updates, additions, or removal of external libraries.				
+C22	Bug-introducing dependency changes	Boolean	manual			Whether there are any changes to the external dependencies that affect the bugintroducing code			TRUE	
+										
+R1	Code review IDs	List of nominals	automated			Identifier of the review within the code review tool.				
+R2	Review tool	Nominal	manual	main		Tooling that was used to conduct the code review, e.g., Gerrit, GitHub pull request, or textual comments in the issue based on code provided within a branch or textual diff. One list of nominals for each system, as we may have multiple comments in multiple locations. [main → code review of main branch]				TRUE
+R3	# Reviewers	Integer	automated	sum		Number of developers that reviewed code.				
+R4	Reviewer types	List of nominals	automated			Whether the reviewers were core developers, peripheral developers, or not involved in the project before.				
+R5	# Review comments	Integer	automated	sum		Number of comments left by reviewers.				
+R6	# Rounds of code review	Integer	automated	sum		Rounds of subsequent code review. A new round starts when the author provIDes an update of the code and requests reviewers to reassess the code.				
+R7	Caused changes	Boolean	manual	any		Whether the code review led to any changes in the code.				
+R8	Aspects of review comments	List of nominals	manual			Aspects discussed as part of the code review, e.g., current bugs, style changes, efficiency, or similar.				
+R9	Bug covering review comments	Boolean	manual	any		True if the code review led to commennts in the buggy file				
+R10	Bug covering review changes	Boolean	manual	any		True if the code review led to changes in the buggy file				
+R11	Review branch	List of nominals	manual			Type of the branch (main or secondary) on which the reviews were done.	R13			

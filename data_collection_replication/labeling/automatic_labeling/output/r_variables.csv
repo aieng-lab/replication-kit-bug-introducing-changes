@@ -1,0 +1,143 @@
+F1 - Bug ID,XR1 - Reviews,R3 - # Reviewers [sum],R4 - Reviewer types,R5 - # Review comments [sum],R6 - # Rounds of code review [sum],R11 - # Review comments after closed (first) [sum],R12 - # Review comments after closed (last) [sum],R1 - Code review IDs
+Elastic Search 1134,[],,,,,,,
+Elastic Search 1134 - CG,[],,,,,,,
+Elastic Search 1154,[],,,,,,,
+Elastic Search 1154 - CG,[],,,,,,,
+Elastic Search 1162,[],,,,,,,
+Elastic Search 1162 - CG,[],,,,,,,
+Elastic Search 12193,[],,,,,,,
+Elastic Search 12193 - CG,[],,,,,,,
+Elastic Search 1380,[],,,,,,,
+Elastic Search 1380 - CG,[],,,,,,,
+Elastic Search 14782,"['13788', '12943', '12694', '12527']",5.0,"{'core', 'not involved'}",25.0,7.0,25.0,25.0,
+Elastic Search 14782 - CG,[],,,,,,,
+Elastic Search 15858,[],,,,,,,
+Elastic Search 15858 - CG,['1258'],4.0,"{'core', 'not involved'}",11.0,0.0,8.0,8.0,
+Elastic Search 16246,"['15564', '15283', '16049']",7.0,"{'core', 'not involved'}",34.0,8.0,1.0,1.0,
+Elastic Search 16246 - CG,"['14899', '15336']",5.0,"{'core', 'not involved'}",18.0,5.0,1.0,1.0,
+Elastic Search 1626,[],,,,,,,
+Elastic Search 1626 - CG,[],,,,,,,
+Elastic Search 16790,['12801'],5.0,"{'core', 'not involved'}",11.0,0.0,0.0,0.0,
+Elastic Search 16790 - CG,['13704'],1.0,{'core'},1.0,0.0,0.0,0.0,
+Elastic Search 1725,[],,,,,,,
+Elastic Search 1725 - CG,[],,,,,,,
+Elastic Search 1814,[],,,,,,,
+Elastic Search 1814 - CG,[],,,,,,,
+Elastic Search 1948,[],,,,,,,
+Elastic Search 1948 - CG,['639'],0.0,set(),0.0,0.0,0.0,0.0,
+Elastic Search 1960,[],,,,,,,
+Elastic Search 1960 - CG,[],,,,,,,
+Elastic Search 200,[],,,,,,,
+Elastic Search 200 - CG,[],,,,,,,
+Elastic Search 2566,[],,,,,,,
+Elastic Search 2566 - CG,[],,,,,,,
+Elastic Search 2608,[],,,,,,,
+Elastic Search 2608 - CG,[],,,,,,,
+Elastic Search 2991,[],,,,,,,
+Elastic Search 2991 - CG,[],,,,,,,
+Elastic Search 3242,['1065'],4.0,"{'core', 'not involved'}",6.0,0.0,5.0,2.0,
+Elastic Search 3242 - CG,['1065'],4.0,"{'core', 'not involved'}",6.0,0.0,5.0,2.0,
+Elastic Search 3267,[],,,,,,,
+Elastic Search 3267 - CG,[],,,,,,,
+Elastic Search 3560,[],,,,,,,
+Elastic Search 3560 - CG,[],,,,,,,
+Elastic Search 4581,[],,,,,,,
+Elastic Search 4581 - CG,[],,,,,,,
+Elastic Search 4814,[],,,,,,,
+Elastic Search 4814 - CG,[],,,,,,,
+Elastic Search 5021,[],,,,,,,
+Elastic Search 5021 - CG,[],,,,,,,
+Elastic Search 5048,[],,,,,,,
+Elastic Search 5048 - CG,[],,,,,,,
+Elastic Search 5165,[],,,,,,,
+Elastic Search 5165 - CG,[],,,,,,,
+Elastic Search 5948,[],,,,,,,
+Elastic Search 5948 - CG,[],,,,,,,
+Elastic Search 7623,[],,,,,,,
+Elastic Search 7623 - CG,[],,,,,,,
+Elastic Search 764,[],,,,,,,
+Elastic Search 764 - CG,[],,,,,,,
+Elastic Search 7686,[],,,,,,,
+Elastic Search 7686 - CG,[],,,,,,,
+Elastic Search 8125,['9005'],0.0,set(),0.0,0.0,0.0,0.0,
+Elastic Search 8125 - CG,[],,,,,,,
+Elastic Search 8438,['6974'],6.0,"{'core', 'not involved'}",19.0,1.0,2.0,2.0,
+Elastic Search 8438 - CG,[],,,,,,,
+Elastic Search 8507,[],,,,,,,
+Elastic Search 8507 - CG,['7067'],1.0,{'core'},1.0,0.0,0.0,0.0,
+Elastic Search 8526,[],,,,,,,
+Elastic Search 8526 - CG,[],,,,,,,
+Elastic Search 8580,[],,,,,,,
+Elastic Search 8580 - CG,"['6849', '6319']",1.0,{'core'},3.0,0.0,0.0,0.0,
+Elastic Search 864,[],,,,,,,
+Elastic Search 864 - CG,[],,,,,,,
+Elastic Search 8893,['7036'],2.0,"{'core', 'not involved'}",9.0,2.0,0.0,0.0,
+Elastic Search 8893 - CG,['6319'],1.0,{'core'},2.0,0.0,0.0,0.0,
+Elastic Search 9317,[],,,,,,,
+Elastic Search 9317 - CG,[],,,,,,,
+NOVA 1294939,,9.0,"{'core', 'not involved', 'peripheral'}",80.0,14.0,,,['67338']
+NOVA 1294939 - CG,,10.0,"{'core', 'not involved', 'peripheral'}",46.0,5.0,,,['70215']
+NOVA 1300788,,8.0,"{'core', 'not involved', 'peripheral'}",46.0,10.0,,,['31593']
+NOVA 1300788 - CG,,6.0,"{'core', 'not involved', 'peripheral'}",19.0,3.0,,,['29062']
+NOVA 1307791,,8.0,"{'core', 'not involved'}",48.0,8.0,,,['14805']
+NOVA 1307791 - CG,,8.0,"{'core', 'not involved', 'peripheral'}",23.0,3.0,,,['14806']
+NOVA 1314677,,8.0,"{'core', 'not involved'}",78.0,17.0,,,['34464']
+NOVA 1314677 - CG,,7.0,"{'core', 'not involved'}",14.0,2.0,,,['40426']
+NOVA 1336127,,14.0,"{'core', 'not involved'}",112.0,17.0,,,['42389']
+NOVA 1336127 - CG,,12.0,"{'core', 'not involved'}",46.0,6.0,,,['44239']
+NOVA 1343080,,5.0,"{'core', 'not involved', 'peripheral'}",44.0,7.0,,,['1324']
+NOVA 1343080 - CG,,8.0,"{'core', 'not involved'}",34.0,5.0,,,"['1934', '2232']"
+NOVA 1367363,,12.0,"{'core', 'not involved', 'peripheral'}",64.0,10.0,,,['53069']
+NOVA 1367363 - CG,,6.0,"{'core', 'not involved', 'peripheral'}",28.0,4.0,,,['63178']
+NOVA 1370177,,12.0,"{'core', 'not involved', 'peripheral'}",126.0,25.0,,,['59034']
+NOVA 1370177 - CG,,11.0,"{'core', 'not involved', 'peripheral'}",102.0,9.0,,,['65042']
+NOVA 1370590,,18.0,"{'core', 'not involved'}",231.0,23.0,,,['74537']
+NOVA 1370590 - CG,,8.0,"{'core', 'not involved'}",11.0,1.0,,,['119446']
+NOVA 1371677,,29.0,"{'core', 'not involved', 'peripheral'}",940.0,107.0,,,['40467']
+NOVA 1371677 - CG,,12.0,"{'core', 'not involved', 'peripheral'}",62.0,3.0,,,['107602']
+NOVA 1375379,,8.0,"{'core', 'not involved'}",34.0,8.0,,,['18864']
+NOVA 1375379 - CG,,5.0,"{'core', 'not involved'}",8.0,1.0,,,['19679']
+NOVA 1381468,,14.0,"{'core', 'not involved', 'peripheral'}",47.0,4.0,,,['124714']
+NOVA 1381468 - CG,,8.0,"{'core', 'not involved'}",21.0,3.0,,,['123682']
+NOVA 1392798,,8.0,"{'core', 'not involved'}",42.0,4.0,,,['22897']
+NOVA 1392798 - CG,,9.0,"{'core', 'not involved', 'peripheral'}",24.0,3.0,,,['19457']
+NOVA 1402535,,9.0,"{'core', 'not involved', 'peripheral'}",70.0,15.0,,,['17946']
+NOVA 1402535 - CG,,6.0,"{'core', 'not involved'}",18.0,3.0,,,['24363']
+NOVA 1402728,,15.0,"{'core', 'not involved', 'peripheral'}",125.0,9.0,,,['107009']
+NOVA 1402728 - CG,,8.0,"{'core', 'not involved'}",19.0,1.0,,,['120675']
+NOVA 1403544,,,,,,,,[]
+NOVA 1403544 - CG,,,,,,,,[]
+NOVA 1419002,,,,,,,,[]
+NOVA 1419002 - CG,,,,,,,,[]
+NOVA 1424647,,20.0,"{'core', 'not involved', 'peripheral'}",108.0,11.0,,,['119396']
+NOVA 1424647 - CG,,9.0,"{'not involved', 'peripheral'}",39.0,6.0,,,['136717']
+NOVA 1434855,,17.0,"{'core', 'not involved', 'peripheral'}",151.0,16.0,,,['155853']
+NOVA 1434855 - CG,,13.0,"{'core', 'not involved', 'peripheral'}",28.0,2.0,,,['155678']
+NOVA 1437855,,8.0,"{'core', 'not involved', 'peripheral'}",71.0,15.0,,,['26113']
+NOVA 1437855 - CG,,4.0,"{'core', 'not involved', 'peripheral'}",7.0,1.0,,,['28774']
+NOVA 1438331,,15.0,"{'core', 'not involved'}",311.0,35.0,,,['94294']
+NOVA 1438331 - CG,,9.0,"{'core', 'not involved'}",31.0,2.0,,,['113741']
+NOVA 1441000,,15.0,"{'core', 'not involved', 'peripheral'}",123.0,8.0,,,['151664']
+NOVA 1441000 - CG,,14.0,"{'core', 'not involved', 'peripheral'}",113.0,14.0,,,['132231']
+NOVA 1443697,,17.0,"{'core', 'not involved', 'peripheral'}",171.0,15.0,,,['145007']
+NOVA 1443697 - CG,,14.0,"{'core', 'not involved', 'peripheral'}",82.0,10.0,,,['150293']
+NOVA 1443970,,15.0,"{'core', 'not involved'}",109.0,8.0,,,['93754']
+NOVA 1443970 - CG,,11.0,"{'core', 'not involved', 'peripheral'}",82.0,7.0,,,['94811']
+NOVA 1447249,,18.0,"{'core', 'not involved', 'peripheral'}",151.0,13.0,,,['144792']
+NOVA 1447249 - CG,,11.0,"{'core', 'not involved', 'peripheral'}",34.0,3.0,,,['142282']
+NOVA 1453274,,11.0,"{'core', 'not involved'}",86.0,6.0,,,['102324']
+NOVA 1453274 - CG,,14.0,"{'core', 'not involved', 'peripheral'}",98.0,6.0,,,['109489']
+NOVA 1466390,,17.0,"{'core', 'not involved', 'peripheral'}",394.0,44.0,,,['28880']
+NOVA 1466390 - CG,,11.0,"{'core', 'not involved', 'peripheral'}",40.0,4.0,,,"['30201', '32717']"
+NOVA 1467451,,14.0,"{'core', 'not involved', 'peripheral'}",154.0,11.0,,,['129235']
+NOVA 1467451 - CG,,14.0,"{'core', 'not involved', 'peripheral'}",30.0,1.0,,,['140337']
+NOVA 1475356,,7.0,"{'core', 'not involved', 'peripheral'}",49.0,9.0,,,['59560']
+NOVA 1475356 - CG,,10.0,"{'core', 'not involved', 'peripheral'}",23.0,3.0,,,['64289']
+NOVA 1475911,,13.0,"{'core', 'not involved'}",75.0,8.0,,,['113545']
+NOVA 1475911 - CG,,11.0,{'not involved'},37.0,3.0,,,['113772']
+NOVA 1481078,,14.0,"{'core', 'not involved', 'peripheral'}",91.0,12.0,,,['164940']
+NOVA 1481078 - CG,,15.0,"{'core', 'not involved', 'peripheral'}",25.0,2.0,,,['175551']
+NOVA 1486541,,18.0,"{'core', 'not involved', 'peripheral'}",188.0,23.0,,,['70747']
+NOVA 1486541 - CG,,19.0,"{'core', 'not involved', 'peripheral'}",75.0,7.0,,,['63612']
+NOVA 1505471,,12.0,"{'core', 'not involved', 'peripheral'}",136.0,17.0,,,['10903']
+NOVA 1505471 - CG,,4.0,{'not involved'},9.0,1.0,,,['17839']

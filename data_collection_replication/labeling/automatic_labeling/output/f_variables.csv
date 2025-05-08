@@ -1,0 +1,72 @@
+F1 - Bug ID,F2 - Bug severity [max],F3 - Bug labels,F4 - # Bug discussants,F4.1 - Bug discussant roles,F4.2 - Bug reporter role [max],F4.3 - Bug assignee role [max],F4.4 - Bug creator role [max],F8 - Bug reopened [any],F9 - # Bug comments [sum],F10 - # Bug comments after closed (first) [sum],F11 - # Bug comments after closed (last) [sum]
+Elastic Search 1134,,"['v0.17.1', 'v0.18.0', '>bug']",1,['core'],core,,core,False,0,0,0
+Elastic Search 1154,,"['v0.18.0', 'v0.17.2', '>bug']",1,['core'],core,,core,False,0,0,0
+Elastic Search 1162,,"['v0.18.0', 'v0.17.2', '>bug']",1,['core'],core,,core,False,0,0,0
+Elastic Search 12193,,"['v2.0.0-beta1', 'Team:Delivery', ':Delivery/Packaging', '>bug']",1,['not involved'],not involved,not involved,not involved,False,1,0,0
+Elastic Search 1380,,"['v0.18.0', '>bug']",1,['not involved'],not involved,,not involved,False,0,0,0
+Elastic Search 14782,,"['good first issue', ':Search/Search', '>bug']",2,"['not involved', 'not involved']",not involved,,not involved,False,1,0,0
+Elastic Search 15858,,"['discuss', ':Search/Search', '>bug']",4,"['core', 'not involved', 'not involved', 'not involved']",not involved,,not involved,False,8,0,0
+Elastic Search 16246,,"[':Data Management/Ingest Node', '>bug']",3,"['not involved', 'not involved', 'core']",not involved,,not involved,False,4,1,1
+Elastic Search 1626,,"['v0.19.0.RC1', '>bug']",1,['core'],core,,core,False,0,0,0
+Elastic Search 16790,,"['Team:Delivery', ':Delivery/Packaging', '>bug']",2,"['not involved', 'core']",not involved,core,not involved,False,1,0,0
+Elastic Search 1725,,"['v0.19.0', '>bug']",2,"['core', 'not involved']",not involved,,not involved,False,1,0,0
+Elastic Search 1814,,"['v0.20.0.RC1', 'v0.19.2', '>bug']",1,['core'],core,,core,False,0,0,0
+Elastic Search 1948,,"['v0.20.0.RC1', 'v0.19.4', '>bug']",1,['core'],core,,core,False,0,0,0
+Elastic Search 1960,,"['v0.20.0.RC1', 'v0.19.4', '>bug']",1,['core'],core,,core,False,0,0,0
+Elastic Search 200,,"['v0.09.0', '>bug']",1,['core'],core,,core,False,1,0,0
+Elastic Search 2566,,['>bug'],2,"['core', 'not involved']",not involved,core,not involved,False,0,0,0
+Elastic Search 2608,,"['v0.90.0.Beta1', 'v0.20.5', '>bug']",2,"['not involved', 'not involved']",not involved,not involved,not involved,False,0,0,0
+Elastic Search 2991,,"['v0.90.1', 'v1.0.0.Beta1', '>bug']",1,['core'],core,core,core,False,0,0,0
+Elastic Search 3242,,"['v0.90.4', 'v1.0.0.Beta1', '>bug']",3,"['not involved', 'core', 'not involved']",not involved,,not involved,True,5,5,2
+Elastic Search 3267,,"['v0.90.3', 'v1.0.0.Beta1', '>bug']",2,"['not involved', 'not involved']",not involved,not involved,not involved,False,0,0,0
+Elastic Search 3560,,"['v0.90.4', 'v1.0.0.Beta1', '>bug']",1,['not involved'],not involved,not involved,not involved,False,0,0,0
+Elastic Search 4581,,"['v1.0.0.RC1', 'v0.90.10', '>bug']",1,['core'],core,core,core,False,0,0,0
+Elastic Search 4814,,"['>test', 'v1.0.0', '>bug']",1,['not involved'],not involved,not involved,not involved,False,0,0,0
+Elastic Search 5021,,"['v2.0.0-beta1', 'v1.1.0', 'v1.0.0', '>bug']",3,"['not involved', 'not involved', 'not involved']",not involved,not involved,not involved,False,3,0,0
+Elastic Search 5048,,"['v2.0.0-beta1', 'v1.1.0', 'v1.0.2', '>bug']",3,"['not involved', 'not involved', 'not involved']",not involved,not involved,not involved,False,4,0,0
+Elastic Search 5165,,"['v0.90.12', '>bug', 'v1.1.0', 'v1.0.1', 'v2.0.0-beta1']",2,"['core', 'not involved']",not involved,,not involved,False,3,0,0
+Elastic Search 5948,,"['v1.0.4', '>bug', 'v1.2.0', 'v2.0.0-beta1', ':Data Management/CAT APIs', 'v1.1.2']",1,['not involved'],not involved,not involved,not involved,False,0,0,0
+Elastic Search 7623,,"['v2.0.0-beta1', 'v1.3.3', 'v1.4.0.Beta1', '>bug']",1,['core'],core,core,core,False,0,0,0
+Elastic Search 764,,"['v0.16.0', '>bug']",1,['core'],core,,core,False,1,0,0
+Elastic Search 7686,,"['good first issue', '>bug']",4,"['not involved', 'not involved', 'not involved', 'not involved']",not involved,not involved,not involved,False,4,0,0
+Elastic Search 8125,,"['blocker', '>bug', 'v1.5.0', 'v1.4.0', 'help wanted', 'v2.0.0-beta1']",3,"['not involved', 'not involved', 'not involved']",not involved,not involved,not involved,False,2,0,0
+Elastic Search 8438,,"['good first issue', 'help wanted', '>bug']",7,"['not involved', 'not involved', 'not involved', 'core', 'not involved', 'core', 'not involved']",not involved,not involved,not involved,False,19,0,0
+Elastic Search 8507,,['>bug'],2,"['not involved', 'not involved']",not involved,not involved,not involved,False,1,0,0
+Elastic Search 8526,,"[':Analytics/Geo', '>bug']",2,"['core', 'not involved']",not involved,core,not involved,False,0,0,0
+Elastic Search 8580,,"[':Analytics/Aggregations', 'v1.4.1', '>bug', 'v1.5.0', 'v2.0.0-beta1']",3,"['core', 'not involved', 'not involved']",not involved,not involved,not involved,False,3,0,0
+Elastic Search 864,,"['v0.16.0', '>bug']",1,['not involved'],not involved,,not involved,False,0,0,0
+Elastic Search 8893,,"['>bug', 'v1.4.3', 'v1.5.0', ':Search/Mapping', 'v2.0.0-beta1']",2,"['not involved', 'core']",not involved,core,not involved,False,1,0,0
+Elastic Search 9317,,"[':Analytics/Aggregations', '>bug']",3,"['not involved', 'core', 'peripheral']",not involved,core,not involved,False,3,0,0
+NOVA 1294939,Medium,"['in-stable-juno', 'nova-network']",2,"['core', 'not involved']",core,core,core,False,5,1,1
+NOVA 1300788,Medium,"['in-stable-icehouse', 'havana-backport-potential', 'vmware']",4,"['core', 'peripheral', 'not involved', 'not involved']",not involved,not involved,not involved,False,8,4,4
+NOVA 1307791,Medium,"['juno-backport-potential', 'volumes']",4,"['not involved', 'not involved', 'not involved', 'core']",not involved,not involved,not involved,False,5,1,1
+NOVA 1314677,Undecided,"['cells', 'in-stable-icehouse', 'verification-done', 'patch']",6,"['not involved', 'not involved', 'not involved', 'not involved', 'not involved', 'peripheral']",not involved,not involved,not involved,False,13,9,9
+NOVA 1336127,High,"['volumes', 'icehouse-backport-potential', 'compute']",5,"['not involved', 'peripheral', 'not involved', 'not involved', 'peripheral']",peripheral,not involved,peripheral,False,5,0,0
+NOVA 1343080,Low,['low-hanging-fruit'],4,"['not involved', 'core', 'not involved', 'core']",core,core,core,False,5,0,0
+NOVA 1367363,Medium,['libvirt'],2,"['core', 'not involved']",core,core,core,False,2,0,0
+NOVA 1370177,Medium,"['volumes', 'snapshots', 'ec2']",7,"['core', 'core', 'peripheral', 'not involved', 'core', 'core', 'peripheral']",core,core,core,False,17,1,1
+NOVA 1370590,High,"['libvirt', 'lxc']",8,"['core', 'not involved', 'core', 'core', 'not involved', 'peripheral', 'not involved', 'not involved']",core,core,core,True,25,16,0
+NOVA 1371677,Critical,"['volumes', 'libvirt', 'lvm', 'compute']",12,"['core', 'not involved', 'core', 'core', 'not involved', 'core', 'core', 'peripheral', 'core', 'core', 'not involved', 'not involved']",core,not involved,core,False,39,4,4
+NOVA 1375379,Undecided,['console'],2,"['core', 'not involved']",core,core,core,False,2,0,0
+NOVA 1381468,High,"['in-stable-juno', 'low-hanging-fruit', 'in-stable-icehouse', 'nova']",2,"['not involved', 'not involved']",not involved,not involved,not involved,False,7,4,4
+NOVA 1392798,Undecided,[],2,"['peripheral', 'not involved']",peripheral,peripheral,peripheral,False,2,0,0
+NOVA 1402535,Low,"['volumes', 'libvirt']",3,"['not involved', 'not involved', 'not involved']",not involved,not involved,not involved,False,4,0,0
+NOVA 1402728,High,['vmware'],2,"['not involved', 'not involved']",not involved,not involved,not involved,False,3,0,0
+NOVA 1403544,Medium,['compute'],2,"['peripheral', 'not involved']",peripheral,peripheral,peripheral,False,7,2,2
+NOVA 1419002,Low,[],3,"['peripheral', 'not involved', 'not involved']",not involved,peripheral,not involved,False,2,0,0
+NOVA 1424647,Medium,[],5,"['not involved', 'not involved', 'not involved', 'peripheral', 'not involved']",peripheral,peripheral,peripheral,False,5,0,0
+NOVA 1434855,Medium,['documentation'],2,"['core', 'not involved']",core,core,core,False,2,0,0
+NOVA 1437855,Medium,"['in-stable-kilo', 'network', 'api']",3,"['not involved', 'peripheral', 'not involved']",peripheral,peripheral,peripheral,False,5,0,0
+NOVA 1438331,Medium,['ceph'],3,"['peripheral', 'peripheral', 'not involved']",peripheral,peripheral,peripheral,False,4,2,2
+NOVA 1441000,Undecided,['libvirt'],3,"['not involved', 'core', 'not involved']",core,core,core,False,4,0,0
+NOVA 1443697,Medium,['vmware'],2,"['not involved', 'core']",core,core,core,False,2,0,0
+NOVA 1443970,Medium,"['nova-manage', 'network']",5,"['core', 'core', 'not involved', 'not involved', 'not involved']",core,core,core,False,9,2,2
+NOVA 1447249,Medium,"['in-stable-kilo', 'ironic']",2,"['peripheral', 'not involved']",peripheral,peripheral,peripheral,False,4,0,0
+NOVA 1453274,Medium,[],2,"['peripheral', 'not involved']",peripheral,peripheral,peripheral,False,6,0,0
+NOVA 1466390,High,[],2,"['not involved', 'core']",core,core,core,False,2,0,0
+NOVA 1467451,Low,"['kilo-backport-potential', 'in-stable-kilo', 'hyper-v']",2,"['peripheral', 'not involved']",peripheral,peripheral,peripheral,False,3,0,0
+NOVA 1475356,High,"['unified-objects', 'kilo-backport-potential']",4,"['not involved', 'not involved', 'core', 'core']",not involved,core,not involved,False,6,1,1
+NOVA 1475911,Low,"['containers', 'cmd-tools']",4,"['core', 'not involved', 'not involved', 'peripheral']",peripheral,peripheral,peripheral,False,7,0,0
+NOVA 1481078,Undecided,[],3,"['not involved', 'not involved', 'not involved']",not involved,not involved,not involved,False,2,0,0
+NOVA 1486541,Medium,['cells'],2,"['core', 'not involved']",core,core,core,False,2,0,0
+NOVA 1505471,High,"['conductor', 'in-stable-liberty', 'db']",5,"['peripheral', 'peripheral', 'peripheral', 'not involved', 'not involved']",peripheral,peripheral,peripheral,False,8,3,3

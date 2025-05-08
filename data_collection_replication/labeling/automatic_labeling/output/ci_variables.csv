@@ -1,0 +1,67 @@
+F1 - Bug ID,CI1 - CI build ID,CI2 - CI build status,CI3 - CI build status change
+NOVA 1294939,67338 - 14,some failures,False
+NOVA 1294939 - CG,70215 - 5,some failures,False
+NOVA 1300788,31593 - 10,success,False
+NOVA 1300788 - CG,29062 - 3,success,True
+NOVA 1307791,14805 - 8,success,True
+NOVA 1307791 - CG,14806 - 3,some failures,False
+NOVA 1314677,34464 - 17,success,True
+NOVA 1314677 - CG,40426 - 2,success,True
+NOVA 1336127,42389 - 17,some failures,False
+NOVA 1336127 - CG,44239 - 6,success,True
+NOVA 1343080,1324 - 7,success,True
+NOVA 1343080 - CG,2232 - 2,some failures,True
+NOVA 1367363,53069 - 10,success,True
+NOVA 1367363 - CG,63178 - 4,success,True
+NOVA 1370177,59034 - 25,success,False
+NOVA 1370177 - CG,65042 - 9,some failures,False
+NOVA 1370590,74537 - 23,success,True
+NOVA 1370590 - CG,119446 - 1,success,True
+NOVA 1371677,40467 - 107,some failures,False
+NOVA 1371677 - CG,107602 - 3,some failures,False
+NOVA 1375379,18864 - 8,success,False
+NOVA 1375379 - CG,19679 - 1,success,True
+NOVA 1381468,124714 - 4,some failures,True
+NOVA 1381468 - CG,123682 - 3,success,True
+NOVA 1392798,22897 - 4,success,False
+NOVA 1392798 - CG,19457 - 3,success,True
+NOVA 1402535,17946 - 15,success,False
+NOVA 1402535 - CG,24363 - 3,success,True
+NOVA 1402728,107009 - 9,success,True
+NOVA 1402728 - CG,120675 - 1,some failures,True
+NOVA 1403544,,,
+NOVA 1403544 - CG,,,
+NOVA 1419002,,,
+NOVA 1419002 - CG,,,
+NOVA 1424647,119396 - 11,some failures,False
+NOVA 1424647 - CG,136717 - 6,some failures,True
+NOVA 1434855,155853 - 16,some failures,True
+NOVA 1434855 - CG,155678 - 2,success,False
+NOVA 1437855,26113 - 15,success,False
+NOVA 1437855 - CG,28774 - 1,success,True
+NOVA 1438331,94294 - 35,some failures,True
+NOVA 1438331 - CG,113741 - 2,some failures,False
+NOVA 1441000,151664 - 8,some failures,False
+NOVA 1441000 - CG,132231 - 14,some failures,True
+NOVA 1443697,145007 - 15,some failures,False
+NOVA 1443697 - CG,150293 - 10,some failures,False
+NOVA 1443970,93754 - 8,some failures,True
+NOVA 1443970 - CG,94811 - 7,some failures,False
+NOVA 1447249,144792 - 13,some failures,False
+NOVA 1447249 - CG,142282 - 3,some failures,False
+NOVA 1453274,102324 - 6,some failures,True
+NOVA 1453274 - CG,109489 - 6,some failures,False
+NOVA 1466390,28880 - 44,success,False
+NOVA 1466390 - CG,32717 - 1,success,True
+NOVA 1467451,129235 - 11,some failures,True
+NOVA 1467451 - CG,140337 - 1,some failures,True
+NOVA 1475356,59560 - 9,success,True
+NOVA 1475356 - CG,64289 - 3,success,True
+NOVA 1475911,113545 - 8,some failures,True
+NOVA 1475911 - CG,113772 - 3,success,True
+NOVA 1481078,164940 - 12,some failures,False
+NOVA 1481078 - CG,175551 - 2,success,False
+NOVA 1486541,70747 - 23,success,True
+NOVA 1486541 - CG,63612 - 7,some failures,False
+NOVA 1505471,10903 - 17,some failures,False
+NOVA 1505471 - CG,17839 - 1,some failures,True
